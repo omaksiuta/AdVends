@@ -1,0 +1,91 @@
+/*https://codyhouse.co/category/ux-patterns/*/
+/*https://codegeekz.com/free-jquery-shopping-cart-plugins/*/
+/*https://codyhouse.co/demo/add-to-cart-interaction/index.html#0*/
+
+@charset "utf-8";
+
+body {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+#categories {
+
+    width: 100%;
+
+    min-height: 640px;
+
+    /*border: 15px solid #33645d;*/
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    /*color: red;*/
+    background-color: #67b7ff;
+
+}
+
+.category-card {
+    display: inline-block;
+    background-color: #fffbf7;
+
+    /*width: 200px;*/
+    min-height: 360px;
+    min-width: 360px;
+    max-height: 640px;
+    max-width: 640px;
+    border: 5px solid #33645d;
+    /*margin: 0 auto;*/
+    text-align: center;
+    color: green;
+    font-family: 'Chelsea Market', Georgia, serif;
+
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+
+}
+
+.category-card-name {
+    display: inline;
+    font-size: 250%;
+    /*background-color: #f8fff6;*/
+    min-height: 75px;
+    /*min-width: 280px;*/
+    max-height: 150px;
+    /*max-width: 360px;*/
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    font-family: 'Chelsea Market', Georgia, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 5px solid #33645d;
+}
+
+.flashcard-img {
+    display: inline;
+    /*background-color: #ffb098;*/
+    height: 50px;
+    width: 50px;
+    /*min-height: 100px;*/
+    /*min-width: 100px;*/
+    /*max-height: 300px;*/
+    /*max-width: 300px;*/
+    border: 5px solid #33645d;
+    /*margin: 0 auto;*/
+    /*color: #7a71ff;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
