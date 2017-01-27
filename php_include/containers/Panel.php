@@ -1,5 +1,7 @@
 <?php
 
+require_once 'Card.php';
+
 class Panel
 {
     public function all_categories_panel($currentPage, $arrayOfSqlRows)
@@ -32,16 +34,13 @@ class Panel
 
                     if ($item_parent_wid == $category_wid) {
 //                    $resultHtml .= "<li>";
-                        $resultHtml .= "<div class='category-card'>";
-                        $resultHtml .= "    <div class='category-card-name'>";
-                        $resultHtml .= "        <a href = '" . $currentPage . "?cat=$item_wid'>";
-                        $resultHtml .= "        " . $item_en;
-                        $resultHtml .= "        </a>";
-                        $resultHtml .= "    </div>";
-                        $resultHtml .= "    <div>";
-                        $resultHtml .= "         <img class='flashcard-img' src = 'http://www.leapfrogs.com.au/wp-content/uploads/Active-kids-pic4.jpg' alt = 'kids jump'>";
-                        $resultHtml .= "    </div>";
-                        $resultHtml .= "</div>";
+                        $imgSrc = 'http://www.leapfrogs.com.au/wp-content/uploads/Active-kids-pic4.jpg';
+                        $imgAlt = 'kids jump';
+                        $card = new Card();
+                        $card->frontLanguage='DE';
+
+                        $resultHtml .= $card->withImage($currentPage, $item_wid, $item_en, $imgSrc, $imgAlt);
+
 //                    $resultHtml .= "</li>";
                     };
                 };

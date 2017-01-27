@@ -11,17 +11,11 @@ body {
 }
 
 #categories {
-
     width: 100%;
-
     min-height: 640px;
-
     /*border: 15px solid #33645d;*/
-
     margin: 0 auto;
-
     text-align: center;
-
     /*color: red;*/
     background-color: #67b7ff;
 
