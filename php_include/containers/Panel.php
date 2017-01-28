@@ -37,7 +37,7 @@ class Panel
                         $imgSrc = 'http://www.leapfrogs.com.au/wp-content/uploads/Active-kids-pic4.jpg';
                         $imgAlt = 'kids jump';
                         $card = new Card();
-                        $card->frontLanguage='DE';
+//                        $card->frontLanguage='DE';
 
                         $resultHtml .= $card->withImage($currentPage, $item_wid, $item_en, $imgSrc, $imgAlt);
 
