@@ -2,7 +2,6 @@
 
 class EncodeDecode
 {
-
     function json_fix_cyr($json_str)
     {
         // echo json_fix_cyr(json_encode(array("собака","кошка"))); // ["собака","кошка"]

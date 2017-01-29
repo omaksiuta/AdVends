@@ -10,11 +10,10 @@
 
     include_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/Panel.php";
 
-    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/html_page/HTMLPageBuilder.php";
-    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/html_page/HtmlBuldDirector.php";
+    //    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/html_page/HTMLPageBuilder.php";
+    //    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/html_page/HtmlBuldDirector.php";
 
-    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/categories_panel/CategoriesPanelBuilder.php";
-    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/categories_panel/CategoriesPanelDirector.php";
+    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/AllCategoriesPanelBuilder.php";
 
 
     define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/wp-content/themes/twentyfourteen/page-templates/css/");
@@ -58,30 +57,12 @@ function userLanguage()
     $arrayOfSqlRows = $database->get_vocabulary_data();
 
     $http = new Http();
-    $currentPage = $http->current_page();
-    //
-    //    $panel = new Panel();
-    //    echo $panel->all_categories_panel($currentPage, $arrayOfSqlRows);
+    $currentPage = $http->currentPage();
 
-
-    echo "lllllllllllllllllll";
-    $allCategoriesPanelBuilder = new CategoriesPanelBuilder();
-    $allCategoriesPanelBuilder->setCurrentPage($currentPage);
+    $allCategoriesPanelBuilder = new AllCategoriesPanelBuilder();
+    $allCategoriesPanelBuilder->setCategoryPage($currentPage);
     $allCategoriesPanelBuilder->setArrayOfSqlRows($arrayOfSqlRows);
-    $allCategoriesPanelBuilder->buildHtml();
-    $code = $allCategoriesPanelBuilder->getHtml();
-    echo $code;
-    echo "lllllllllllllllllll";
+    echo $allCategoriesPanelBuilder->buildHtml();
 
-
-    //    writeln('BEGIN TESTING BUILDER PATTERN');
-    //    writeln('');
-    //    $pageBuilder = new HTMLHtmlBuilder();
-    //    $pageDirector = new HtmlBuldDirector($pageBuilder);
-    //    $pageDirector->buildHtml();
-    //    $page = $pageDirector->getHtml();
-    //    writeln($page->showPage());
-    //    writeln('');
-    //    writeln('END TESTING BUILDER PATTERN');
     ?>
 </div>

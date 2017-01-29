@@ -3,6 +3,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/AbstractHtmlCo
 
 class Card extends AbstractHtmlContainer
 {
+    private $header = NULL;
+    private $body = NULL;
+    private $footer = NULL;
+
     private $frontName = NULL;
     private $backName = NULL;
     private $frontImgAlt = NULL;
@@ -67,33 +71,37 @@ class Card extends AbstractHtmlContainer
 //        return $resultHtml;
 //    }
 
-    public function buildWithImageOnly()
+//    public function buildWithImageOnly()
+//    {
+//        $resultHtml = "<div class='category-card-icon'>";
+//        $resultHtml .= "    <div class='category-card-name'>";
+//        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
+//        $resultHtml .= "         <img class='flashcard-img' src = '$this->imgSrc' alt = '$this->frontImgAlt'>";
+//        $resultHtml .= "        </a>";
+//        $resultHtml .= "    </div>";
+//        $resultHtml .= "</div>";
+//
+//        return $resultHtml;
+//    }
+//
+//    public function buildWithNameAndImage()
+//    {
+//        $resultHtml = "<div class='category-card'>";
+//        $resultHtml .= "    <div class='category-card-name'>";
+//        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
+//        $resultHtml .= "        " . $this->frontName;
+//        $resultHtml .= "        </a>";
+//        $resultHtml .= "    </div>";
+//        $resultHtml .= "    <div>";
+//        $resultHtml .= "         <img class='flashcard-img' src = '$this->imgSrc' alt = '$this->frontImgAlt'>";
+//        $resultHtml .= "    </div>";
+//        $resultHtml .= "</div>";
+//
+//        return $resultHtml;
+//    }
+    function getHtml()
     {
-        $resultHtml = "<div class='category-card-icon'>";
-        $resultHtml .= "    <div class='category-card-name'>";
-        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
-        $resultHtml .= "         <img class='flashcard-img' src = '$this->imgSrc' alt = '$this->frontImgAlt'>";
-        $resultHtml .= "        </a>";
-        $resultHtml .= "    </div>";
-        $resultHtml .= "</div>";
-
-        return $resultHtml;
-    }
-
-    public function buildWithNameAndImage()
-    {
-        $resultHtml = "<div class='category-card'>";
-        $resultHtml .= "    <div class='category-card-name'>";
-        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
-        $resultHtml .= "        " . $this->frontName;
-        $resultHtml .= "        </a>";
-        $resultHtml .= "    </div>";
-        $resultHtml .= "    <div>";
-        $resultHtml .= "         <img class='flashcard-img' src = '$this->imgSrc' alt = '$this->frontImgAlt'>";
-        $resultHtml .= "    </div>";
-        $resultHtml .= "</div>";
-
-        return $resultHtml;
+        // TODO: Implement getHtml() method.
     }
 }
 

@@ -26,7 +26,7 @@ class Http
     }
 
 
-    function current_page()
+    function currentPage()
     {
         return trim(basename($_SERVER['PHP_SELF']));
     }
