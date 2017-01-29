@@ -39,7 +39,7 @@ class Panel
                         $card = new Card();
 //                        $card->frontLanguage='DE';
 
-                        $resultHtml .= $card->withImage($currentPage, $item_wid, $item_en, $imgSrc, $imgAlt);
+                        $resultHtml .= $card->buildWithImageOnly($currentPage, $item_wid, $item_en, $imgSrc, $imgAlt);
 
 //                    $resultHtml .= "</li>";
                     };
