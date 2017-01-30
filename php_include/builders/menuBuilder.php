@@ -1,6 +1,6 @@
 <?php
 
-class Menu
+class menuBuilder extends AbstractHtmlBuilder
 {
     public static function allCategoriesMenu($currentPage, $arrayOfSqlRows)
     {
@@ -41,5 +41,11 @@ class Menu
             $resultHtml .= "</ul>";
         };
         return $resultHtml;
+    }
+
+
+    function buildHtml()
+    {
+        // TODO: Implement buildHtml() method.
     }
 }

@@ -4,22 +4,18 @@
 <head>
     <?php
     require $_SERVER['DOCUMENT_ROOT'] . "/php_include/standardFunctions.php";
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/Database.php";
     require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/Http.php";
     require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/EncodeDecode.php";
 
-    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/AllCategoriesPanelBuilder.php";
-
-
+    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/CategoryItemsPanelBuilder.php";
     //    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/wp-content/themes/twentyfourteen/page-templates/css/");
     define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/php_include/css/");
 
     ?>
 
-    <title>FlashCards</title>
+    <title>FlashCards Category</title>
 
-
-    <link type="text/css" rel="stylesheet" href="<?php echo CSS_ROOT_PATH; ?>home.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="<?php echo CSS_ROOT_PATH; ?>category.css" media="all"/>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script type="text/javascript">
@@ -32,17 +28,19 @@
 
 
 <?php
-/* Template Name: home.php */
-// get_header();
+
+/* Template Name: category.php */
+//get_header();
 ?>
 
 
-<div id='allCategoriesPanel'>
+<div id='categoryItemsPanel'>
     <?php
+
     $http = new Http();
     $currentPage = $http->currentPage();
 
-    $allCategoriesPanelBuilder = new AllCategoriesPanelBuilder();
+    $allCategoriesPanelBuilder = new CategoryItemsPanelBuilder();
     $allCategoriesPanelBuilder->setCategoryPage($currentPage);
     $allCategoriesPanelBuilder->setMaxItemsToShow(12);
 

@@ -5,7 +5,24 @@
 //http://www.w3schools.com/php/func_mysqli_fetch_array.asp
 class Database
 {
-    private static function connect_advends_db()
+    private $sqlAllCategoriesData = "SELECT
+                                            v1.WID
+                                            ,v1.PARENT_WID
+                                            ,v1.EN
+                                            ,v1.RU  
+                                            ,(SELECT count(*)  FROM tbl_vocabulary v2 where v2.PARENT_WID=v1.WID) as ITEMS_COUNT
+                                        FROM tbl_vocabulary v1
+                                        JOIN tbl_vocabulary v2 on v1.WID=v2.WID
+                                        GROUP BY v1.EN
+                                        ORDER BY v1.PARENT_WID, ITEMS_COUNT DESC;";
+    private $sqlCategoryItems = "SELECT
+                                            v1.WID
+                                            ,v1.PARENT_WID
+                                            ,v1.EN
+                                            ,v1.RU  
+                                        FROM tbl_vocabulary v1 WHERE PARENT_WID = 'w0000103';";
+
+    private static function connectAdvendsDb()
     {
         $servername = "advends.com";
         $username = "advends";
@@ -24,23 +41,22 @@ class Database
         return $conn;
     }
 
-    function get_vocabulary_data()
+    public function getAllCategoriesData()
     {
-        $dbConnection = $this->connect_advends_db();
+        $dbConnection = $this->connectAdvendsDb();
+        $sql = $this->sqlAllCategoriesData;
+        $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
+    }
 
-        $sql = "
-                    SELECT
-                        v1.WID
-                        ,v1.PARENT_WID
-                        ,v1.EN
-                        ,v1.RU  
-                        ,(SELECT count(*)  FROM tbl_vocabulary v2 where v2.PARENT_WID=v1.WID) as ITEMS_COUNT
-                    FROM tbl_vocabulary v1
-                    JOIN tbl_vocabulary v2 on v1.WID=v2.WID
-                    GROUP BY v1.EN
-                    ORDER BY v1.PARENT_WID, ITEMS_COUNT DESC;
-    ";
-        //        echo $sql;
+    public function getCategoryItems()
+    {
+        $dbConnection = $this->connectAdvendsDb();
+        $sql = $this->sqlCategoryItems;
+        $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
+    }
+
+    private function sqlToArrayWithConnectionClose($dbConnection, $sql)
+    {
         $arrayOfSqlRows[] = [];
         if ($result = mysqli_query($dbConnection, $sql)) {
             //Create $arrayOfSqlRows

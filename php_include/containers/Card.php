@@ -13,10 +13,8 @@ class Card extends AbstractHtmlContainer
     private $backImgAlt = NULL;
 
     private $page = NULL;
-    private $categoryFrontName = NULL;
 
     private $wid = NULL;
-    private $subItemsCount = NULL;
     private $imgSrc = NULL;
 
     public function setPage($page)
@@ -24,23 +22,25 @@ class Card extends AbstractHtmlContainer
         $this->page = $page;
     }
 
-    public function setCategoryFrontName($categoryFrontName)
-    {
-        $this->categoryFrontName = $categoryFrontName;
-    }
-
-
     public function setWid($wid)
     {
         $this->wid = $wid;
     }
 
-    public function setSubItemsCount($subItemsCount)
+    public function setHeader($header)
     {
-        $this->subItemsCount = $subItemsCount;
+        $this->header = $header;
     }
 
-    public function setFrontName($frontName)
+    public function setBody($body)
+    {
+        $this->body = $body;
+    }
+
+    public function setFooter($footer)
+    {
+        $this->footer = $footer;
+    }    public function setFrontName($frontName)
     {
         $this->frontName = $frontName;
     }
@@ -60,45 +60,37 @@ class Card extends AbstractHtmlContainer
         $this->frontImgAlt = $frontImgAlt;
     }
 
-//    public function withCategoryNameAndItsCount()
-//    {
-//        $resultHtml = "    <div class=''>";
-//        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
-//        $resultHtml .= "        " . $this->frontName . " <b>" . $this->subItemsCount . "</b>";
-//        $resultHtml .= "        </a>";
-//        $resultHtml .= "    </div>";
-//
-//        return $resultHtml;
-//    }
+    public function buildWithImageOnly()
+    {
+        $resultHtml = "<div class='category-card-icon'>";
+        $resultHtml .= "    <div class='category-card-name'>";
+        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
+        $resultHtml .= "         <img class='flashcard-img' src = '$this->imgSrc' alt = '$this->frontImgAlt'>";
+        $resultHtml .= "        </a>";
+        $resultHtml .= "    </div>";
+        $resultHtml .= "</div>";
 
-//    public function buildWithImageOnly()
-//    {
-//        $resultHtml = "<div class='category-card-icon'>";
-//        $resultHtml .= "    <div class='category-card-name'>";
-//        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
-//        $resultHtml .= "         <img class='flashcard-img' src = '$this->imgSrc' alt = '$this->frontImgAlt'>";
-//        $resultHtml .= "        </a>";
-//        $resultHtml .= "    </div>";
-//        $resultHtml .= "</div>";
-//
-//        return $resultHtml;
-//    }
-//
-//    public function buildWithNameAndImage()
-//    {
-//        $resultHtml = "<div class='category-card'>";
-//        $resultHtml .= "    <div class='category-card-name'>";
-//        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
-//        $resultHtml .= "        " . $this->frontName;
-//        $resultHtml .= "        </a>";
-//        $resultHtml .= "    </div>";
-//        $resultHtml .= "    <div>";
-//        $resultHtml .= "         <img class='flashcard-img' src = '$this->imgSrc' alt = '$this->frontImgAlt'>";
-//        $resultHtml .= "    </div>";
-//        $resultHtml .= "</div>";
-//
-//        return $resultHtml;
-//    }
+        return $resultHtml;
+    }
+
+    public function buildWithNameAndImage()
+    {
+        $resultHtml = "<div class='category-card'>";
+        $resultHtml .= "    <div class='category-card-name'>";
+        $resultHtml .= "        <a href = '" . $this->page . "?id=$this->wid'>";
+        $resultHtml .= "        " . $this->frontName;
+        $resultHtml .= "        </a>";
+        $resultHtml .= "    </div>";
+        $resultHtml .= "    <div>";
+        $resultHtml .= "         <img class='flashcard-img' src = '$this->imgSrc' alt = '$this->frontImgAlt'>";
+        $resultHtml .= "    </div>";
+        $resultHtml .= "</div>";
+
+        return $resultHtml;
+    }
+
+
+
     function getHtml()
     {
         // TODO: Implement getHtml() method.
