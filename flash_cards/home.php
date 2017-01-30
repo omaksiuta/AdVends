@@ -10,13 +10,13 @@
 
     include_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/Panel.php";
 
-    //    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/html_page/HTMLPageBuilder.php";
-    //    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/html_page/HtmlBuldDirector.php";
 
     require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/AllCategoriesPanelBuilder.php";
 
 
-    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/wp-content/themes/twentyfourteen/page-templates/css/");
+    //    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/wp-content/themes/twentyfourteen/page-templates/css/");
+    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/php_include/css/");
+
     ?>
 
     <title>FlashCards</title>
