@@ -45,14 +45,14 @@ class Database
     {
         $dbConnection = $this->connectAdvendsDb();
         $sql = $this->sqlAllCategoriesData;
-        $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
+        return $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
     }
 
     public function getCategoryItems()
     {
         $dbConnection = $this->connectAdvendsDb();
         $sql = $this->sqlCategoryItems;
-        $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
+        return $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
     }
 
     private function sqlToArrayWithConnectionClose($dbConnection, $sql)
@@ -66,6 +66,7 @@ class Database
             mysqli_free_result($result);
         };
         mysqli_close($dbConnection);
+//        echo '<br/> arrayOfSqlRows' . '$arrayOfSqlRows';
         return $arrayOfSqlRows;
     }
 }

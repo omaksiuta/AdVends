@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/AbstractHtmlContainer.php";
 
-class CategoryAndCount extends AbstractHtmlContainer
+class CategoryAndCountContainer extends AbstractHtmlContainer
 {
     private $categoryPage = NULL;
     private $categoryWid = NULL;

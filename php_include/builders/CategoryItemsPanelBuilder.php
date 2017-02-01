@@ -1,9 +1,11 @@
 <!--https://sourcemaking.com/design_patterns/builder/java/2-->
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/Database.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/AbstractHtmlBuilder.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/HtmlCorrector.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/Card.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/AbstractHtmlBuilder.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/CardBuilder.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/domain_objects/Card.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/enums/CardType.php";
 
 
 class CategoryItemsPanelBuilder extends AbstractHtmlBuilder
@@ -34,18 +36,19 @@ class CategoryItemsPanelBuilder extends AbstractHtmlBuilder
         $resultHtml = '';
 
         foreach ($this->arrayOfSqlRows as $rowOfItem) {
-            $row_wid = $rowOfItem['WID'];
             $row_en = $rowOfItem['EN'];
             $row_ru = $rowOfItem['RU'];
 
             $card = new Card();
+            $card->setWid($rowOfItem['WID']);
+            $card->setParentWid($rowOfItem['PARENT_WID']);
             $card->setPage($this->categoryPage);
-            $card->setWid($row_wid);
             $card->setFrontName($row_en);
             $card->setBackName($row_ru);
-            $cardHtml = $card->getHtml();
 
-            $resultHtml .= HtmlCorrector::add_div($cardHtml,NULL, 'category-card');
+            $cardBuilder = new CardBuilder($card, CardType::HEADER_WITH_IMAGE);
+
+            $resultHtml .= HtmlCorrector::coverWithDiv($cardBuilder->buildHtml(), NULL, 'category-card');
         };
         return $resultHtml;//HtmlCorrector::add_div($resultHtml, 'allCategoriesPanel');
     }

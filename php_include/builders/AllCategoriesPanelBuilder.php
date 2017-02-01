@@ -3,8 +3,8 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/Database.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/AbstractHtmlBuilder.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/HtmlCorrector.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/CategoryAndCount.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/ImageIcon.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/CategoryAndCountContainer.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/ImageContainer.php";
 
 
 class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
@@ -17,6 +17,7 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
     {
         $database = new Database();
         $this->arrayOfSqlRows = $database->getAllCategoriesData();
+        echo sizeof($this->arrayOfSqlRows);
     }
 
     public function setCategoryPage($categoryPage)
@@ -33,18 +34,25 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
     {
         $resultHtml = '';
         foreach ($this->arrayOfSqlRows as $rowOfCategory) {
-            $category_wid = $rowOfCategory['WID'];
+            $categoryWid = $rowOfCategory['WID'];
             $categoryItemsCount = $rowOfCategory['ITEMS_COUNT'];
 
             if ($categoryItemsCount > 0) {
 
                 //Create Header
-                $categoryAndCount = new CategoryAndCount();
+                $categoryAndCount = new CategoryAndCountContainer();
                 $categoryAndCount->setCategoryPage($this->categoryPage);
-                $categoryAndCount->setCategoryWid($category_wid);
+                $categoryAndCount->setCategoryWid($categoryWid);
                 $categoryAndCount->setCategoryName($rowOfCategory['EN']);
                 $categoryAndCount->setCategoryItemsCount($categoryItemsCount);
-                $header = HtmlCorrector::add_div($categoryAndCount->getHtml(), NULL, 'category-text-and-count');
+
+                $header = $categoryAndCount->getHtml();
+
+                $href = $this->categoryPage . "?id='" . $categoryWid . "'";
+
+                $header = HtmlCorrector::coverWithHref($header, $href, NULL, NULL, 'category-text-and-count');
+
+                $header = HtmlCorrector::coverWithDiv($header, NULL, 'category-text-and-count');
 
                 //Search for sub-items
                 $imageIcons = '';
@@ -52,22 +60,23 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
                 $counter = 0;
                 foreach ($this->arrayOfSqlRows as $rowOfItem) {
                     $item_parent_wid = $rowOfItem['PARENT_WID'];
-                    if ($item_parent_wid == $category_wid) {
+                    if ($item_parent_wid == $categoryWid) {
                         if ($counter < $this->maxItemsToShow) {
-                            $imageIcon = new ImageIcon();
-                            $imageIcon->setImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
-                            $imageIcon->setImgClass('category-img-icon');
-                            $imageIcon->setImgAlt('alt nature. alt good');
-                            $imageIcons .= $imageIcon->getHtml();
+                            //build img icon
+                            $imageTag = new ImageContainer();
+                            $imageTag->setImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
+                            $imageTag->setImgClass('category-img-icon');
+                            $imageTag->setImgAlt('alt nature. alt good');
+                            $imageIcons .= $imageTag->getHtml();
                         };
                         $counter++;
                     };
                 };
-                $imageIcons = HtmlCorrector::add_div($imageIcons);
+                $imageIcons = HtmlCorrector::coverWithDiv($imageIcons);
 
-                $resultHtml .= HtmlCorrector::add_div($header . $imageIcons, NULL, 'categoryPanel');
+                $resultHtml .= HtmlCorrector::coverWithDiv($header . $imageIcons, NULL, 'categoryPanel');
             };
         };
-        return $resultHtml;//HtmlCorrector::add_div($resultHtml, 'allCategoriesPanel');
+        return $resultHtml;
     }
 }

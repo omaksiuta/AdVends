@@ -1,0 +1,11 @@
+<?php
+
+
+class CardType
+{
+    const IMAGE_ONLY = 'IMAGE_ONLY';
+    const TEXT_ONLY = 'TEXT_ONLY';
+    const HEADER_WITH_IMAGE = 'HEADER_WITH_IMAGE';
+    const FOOTER_WITH_IMAGE = 'FOOTER_WITH_IMAGE';
+    const HEADER_AND_FOOTER_WITH_IMAGE = 'HEADER_AND_FOOTER_WITH_IMAGE';
+}

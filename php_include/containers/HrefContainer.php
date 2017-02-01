@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/AbstractHtmlContainer.php";
 
-class ImageIcon extends AbstractHtmlContainer
+class ImageContainer extends AbstractHtmlContainer
 {
     private $imgSrc = NULL;
     private $imgAlt = NULL;
@@ -21,9 +21,16 @@ class ImageIcon extends AbstractHtmlContainer
     {
         $this->imgClass = $imgClass;
     }
+
     public function getHtml()
     {
-        return "<img class='$this->imgClass' src = '$this->imgSrc' alt = '$this->imgAlt'>";
+        $result = "<img"
+            . HtmlCorrector::addIdAndOrClassAttribute(NULL, $this->imgClass)
+            . HtmlCorrector::addTagAttribute('src', $this->imgSrc)
+            . HtmlCorrector::addTagAttribute('alt', $this->imgAlt)
+            . ">";
+        echo $result;
+        return $result;
     }
 }
 
