@@ -17,7 +17,8 @@
     ?>
 
     <title>FlashCards</title>
-
+<!--<!--    We need to tell it to dynamically link to the themes folder. Replace your code with this.-->-->
+<!--    <link href="--><?php //bloginfo('template_directory');?><!--/blog.css" rel="stylesheet">-->
     <link type="text/css" rel="stylesheet" href="<?php echo CSS_ROOT_PATH; ?>card.css" media="all"/>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
