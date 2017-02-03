@@ -22,6 +22,10 @@ class Database
                                             ,v1.RU  
                                         FROM tbl_vocabulary v1 WHERE PARENT_WID = 'w0000103';";
 
+    function __construct()
+    {
+    }
+
     private static function connectAdvendsDb()
     {
         $servername = "advends.com";

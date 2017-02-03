@@ -15,14 +15,9 @@
 
     <title>FlashCards Category</title>
 
-    <link type="text/css" rel="stylesheet" href="<?php echo CSS_ROOT_PATH; ?>category.css" media="all"/>
     <link type="text/css" rel="stylesheet" href="<?php echo CSS_ROOT_PATH; ?>card.css" media="all"/>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript">
-    </script>
-
-
 </head>
 
 <body>
@@ -43,7 +38,7 @@
 
     $categoryItemsPanelBuilder = new CategoryItemsPanelBuilder();
     $categoryItemsPanelBuilder->setCategoryPage($currentPage);
-    $categoryItemsPanelBuilder->setMaxItemsToShow(12);
+    $categoryItemsPanelBuilder->setMaxItemsToShow(10);
 
     echo $categoryItemsPanelBuilder->buildHtml();
     ?>

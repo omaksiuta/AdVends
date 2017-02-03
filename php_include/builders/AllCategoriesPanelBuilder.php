@@ -46,13 +46,13 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
                 $categoryAndCount->setCategoryName($rowOfCategory['EN']);
                 $categoryAndCount->setCategoryItemsCount($categoryItemsCount);
 
-                $header = $categoryAndCount->getHtml();
+                $cardHeader = $categoryAndCount->getHtml();
 
-                $href = $this->categoryPage . "?id='" . $categoryWid . "'";
+                $href = $this->categoryPage."categories/" . "?id=" . $categoryWid;
 
-                $header = HtmlCorrector::coverWithHref($header, $href, NULL, NULL, 'category-text-and-count');
+                $cardHeader = HtmlCorrector::coverWithHref($cardHeader, $href);
 
-                $header = HtmlCorrector::coverWithDiv($header, NULL, 'category-text-and-count');
+                $cardHeader = HtmlCorrector::coverWithDiv($cardHeader, NULL, 'category-card-text-and-count');
 
                 //Search for sub-items
                 $imageIcons = '';
@@ -65,7 +65,7 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
                             //build img icon
                             $imageTag = new ImageContainer();
                             $imageTag->setImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
-                            $imageTag->setImgClass('category-img-icon');
+                            $imageTag->setImgClass('category-card-img-icon');
                             $imageTag->setImgAlt('alt nature. alt good');
                             $imageIcons .= $imageTag->getHtml();
                         };
@@ -74,7 +74,9 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
                 };
                 $imageIcons = HtmlCorrector::coverWithDiv($imageIcons);
 
-                $resultHtml .= HtmlCorrector::coverWithDiv($header . $imageIcons, NULL, 'categoryPanel');
+                $resultHtml = $cardHeader . $imageIcons;
+
+                $resultHtml .= HtmlCorrector::coverWithDiv($resultHtml, NULL, 'category-card');
             };
         };
         return $resultHtml;

@@ -1,7 +1,11 @@
 <?php
 
-class menuBuilder extends AbstractHtmlBuilder
+class MenuBuilder extends AbstractHtmlBuilder
 {
+    function __construct()
+    {
+    }
+
     public static function allCategoriesMenu($currentPage, $arrayOfSqlRows)
     {
         $resultHtml = "";

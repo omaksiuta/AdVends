@@ -5,9 +5,11 @@ class Card extends AbstractDomainObject
 {
     private $frontName = NULL;
     private $backName = NULL;
-    private $frontImg = NULL;
-    private $backImg = NULL;
-    private $page = NULL;
+    private $frontImgSrc = NULL;
+    private $backImgSrc = NULL;
+    private $frontImgAlt = NULL;
+    private $backImgAlt = NULL;
+    private $webPagePath = NULL;
     private $wid = NULL;
     private $parent_wid = NULL;
 
@@ -31,34 +33,34 @@ class Card extends AbstractDomainObject
         $this->backName = $backName;
     }
 
-    public function getFrontImg()
+    public function getFrontImgSrc()
     {
-        return $this->frontImg;
+        return $this->frontImgSrc;
     }
 
-    public function setFrontImg($frontImg)
+    public function setFrontImgSrc($frontImgSrc)
     {
-        $this->frontImg = $frontImg;
+        $this->frontImgSrc = $frontImgSrc;
     }
 
-    public function getBackImg()
+    public function getBackImgSrc()
     {
-        return $this->backImg;
+        return $this->backImgSrc;
     }
 
-    public function setBackImg($backImg)
+    public function setBackImgSrc($backImgSrc)
     {
-        $this->backImg = $backImg;
+        $this->backImgSrc = $backImgSrc;
     }
 
-    public function getPage()
+    public function getWebPagePath()
     {
-        return $this->page;
+        return $this->webPagePath;
     }
 
-    public function setPage($page)
+    public function setWebPagePath($webPagePath)
     {
-        $this->page = $page;
+        $this->webPagePath = $webPagePath;
     }
 
     public function getWid()
@@ -79,6 +81,26 @@ class Card extends AbstractDomainObject
     public function setParentWid($parent_wid)
     {
         $this->parent_wid = $parent_wid;
+    }
+
+    public function getFrontImgAlt()
+    {
+        return $this->frontImgAlt;
+    }
+
+    public function setFrontImgAlt($frontImgAlt)
+    {
+        $this->frontImgAlt = $frontImgAlt;
+    }
+
+    public function getBackImgAlt()
+    {
+        return $this->backImgAlt;
+    }
+
+    public function setBackImgAlt($backImgAlt)
+    {
+        $this->backImgAlt = $backImgAlt;
     }
 }
 

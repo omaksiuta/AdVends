@@ -12,7 +12,6 @@ class CategoryItemsPanelBuilder extends AbstractHtmlBuilder
 {
     private $categoryPage = NULL;
     private $arrayOfSqlRows = NULL;
-    private $ItemType = NULL;
     private $maxItemsToShow = 0;
 
     function __construct()
@@ -35,21 +34,34 @@ class CategoryItemsPanelBuilder extends AbstractHtmlBuilder
     {
         $resultHtml = '';
 
+        $counter = 0;
+
         foreach ($this->arrayOfSqlRows as $rowOfItem) {
-            $row_en = $rowOfItem['EN'];
-            $row_ru = $rowOfItem['RU'];
+            if (strlen(str_replace(' ', '', $rowOfItem['WID'])) != 0) {
+                if ($counter < $this->maxItemsToShow) {
 
-            $card = new Card();
-            $card->setWid($rowOfItem['WID']);
-            $card->setParentWid($rowOfItem['PARENT_WID']);
-            $card->setPage($this->categoryPage);
-            $card->setFrontName($row_en);
-            $card->setBackName($row_ru);
+//            echo "<br/> WID" . $rowOfItem['WID'];
+                    $card = new Card();
+                    $card->setWid($rowOfItem['WID']);
+                    $card->setParentWid($rowOfItem['PARENT_WID']);
+                    $card->setWebPagePath($this->categoryPage);
+                    $card->setFrontImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
+                    $card->setBackImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
+                    $card->setFrontImgAlt('front alt nature. front alt good');
+                    $card->setBackImgAlt('front alt nature. front alt good');
+                    $card->setFrontName($rowOfItem['EN']);
+                    $card->setBackName($rowOfItem['RU']);
 
-            $cardBuilder = new CardBuilder($card, CardType::HEADER_WITH_IMAGE);
+                    $cardBuilder = new CardBuilder($card, CardType::HEADER_WITH_IMAGE);
 
-            $resultHtml .= HtmlCorrector::coverWithDiv($cardBuilder->buildHtml(), NULL, 'category-card');
+                    $cardHtml = HtmlCorrector::coverWithDiv($cardBuilder->buildHtml(), NULL, 'category-item-card');
+//            echo HtmlCorrector::coverWithTextArea($cardHtml);
+                    $resultHtml .= $cardHtml;
+
+                    $counter++;
+                };
+            };
         };
-        return $resultHtml;//HtmlCorrector::add_div($resultHtml, 'allCategoriesPanel');
+        return $resultHtml;
     }
 }

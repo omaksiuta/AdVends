@@ -5,7 +5,23 @@ class ImageContainer extends AbstractHtmlContainer
 {
     private $imgSrc = NULL;
     private $imgAlt = NULL;
+    private $imgId = NULL;
     private $imgClass = NULL;
+
+    function __construct()
+    {
+    }
+
+    public function setImgId($imgId)
+    {
+        $this->imgId = $imgId;
+    }
+
+
+    public function setImgClass($imgClass)
+    {
+        $this->imgClass = $imgClass;
+    }
 
     public function setImgSrc($imgSrc)
     {
@@ -17,20 +33,18 @@ class ImageContainer extends AbstractHtmlContainer
         $this->imgAlt = $imgAlt;
     }
 
-    public function setImgClass($imgClass)
-    {
-        $this->imgClass = $imgClass;
-    }
 
     public function getHtml()
     {
-        $result = "<img"
-            . HtmlCorrector::addIdAndOrClassAttribute(NULL, $this->imgClass)
-            . HtmlCorrector::addTagAttribute('src', $this->imgSrc)
-            . HtmlCorrector::addTagAttribute('alt', $this->imgAlt)
-            . ">";
-        echo $result;
-        return $result;
+        $tagAttributes = HtmlCorrector::addIdAttribute($this->imgId);
+
+        $tagAttributes .= HtmlCorrector::addClassAttribute($this->imgClass);
+
+        $tagAttributes .= HtmlCorrector::addTagAttribute('src', $this->imgSrc);
+
+        $tagAttributes .= HtmlCorrector::addTagAttribute('alt', $this->imgAlt);
+
+        return HtmlCorrector::createTag('img', $tagAttributes);
     }
 }
 
