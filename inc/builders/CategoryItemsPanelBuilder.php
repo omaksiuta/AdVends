@@ -1,11 +1,11 @@
 <!--https://sourcemaking.com/design_patterns/builder/java/2-->
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/Database.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/HtmlCorrector.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/AbstractHtmlBuilder.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/CardBuilder.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/domain_objects/Card.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/enums/CardType.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/Database.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/HtmlCorrector.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/builders/AbstractHtmlBuilder.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/builders/CardBuilder.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/domain_objects/Card.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/enums/CardType.php";
 
 
 class CategoryItemsPanelBuilder extends AbstractHtmlBuilder

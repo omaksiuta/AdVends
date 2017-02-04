@@ -52,6 +52,22 @@ body {
     padding-bottom: 5px;
 }
 
+.category-card-body {
+    display: inline;
+    font-size: 250%;
+    /* background-color: #f8fff6; */
+    min-height: 75px;
+    /* min-width: 280px; */
+    max-height: 150px;
+    /* max-width: 360px; */
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    font-family: 'Chelsea Market', Georgia, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .category-item-card {
     display: inline-block;
     background-color: #fffbf7;

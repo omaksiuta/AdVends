@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/AbstractHtmlContainer.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/containers/AbstractHtmlContainer.php";
 
 class CategoryAndCountContainer extends AbstractHtmlContainer
 {
@@ -40,10 +40,7 @@ class CategoryAndCountContainer extends AbstractHtmlContainer
 
     public function getHtml()
     {
-        $resultHtml = "<a href = ' . $this->categoryPage . '?id=' . $this->categoryWid . '>";
-        $resultHtml .= $this->categoryName . " " . $this->categoryItemsCount;
-        $resultHtml .= "</a>";
-        return $resultHtml;
+        return $this->categoryName . " " . $this->categoryItemsCount;
     }
 }
 

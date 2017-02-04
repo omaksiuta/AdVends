@@ -1,10 +1,10 @@
 <!--https://sourcemaking.com/design_patterns/builder/java/2-->
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/Database.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/AbstractHtmlBuilder.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/HtmlCorrector.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/CategoryAndCountContainer.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/containers/ImageContainer.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/Database.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/builders/AbstractHtmlBuilder.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/HtmlCorrector.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/containers/CategoryAndCountContainer.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/containers/ImageContainer.php";
 
 
 class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
@@ -17,7 +17,7 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
     {
         $database = new Database();
         $this->arrayOfSqlRows = $database->getAllCategoriesData();
-        echo sizeof($this->arrayOfSqlRows);
+//        echo sizeof($this->arrayOfSqlRows);
     }
 
     public function setCategoryPage($categoryPage)
@@ -48,7 +48,7 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
 
                 $cardHeader = $categoryAndCount->getHtml();
 
-                $href = $this->categoryPage."categories/" . "?id=" . $categoryWid;
+                $href = $this->categoryPage . "categories/" . "?id=" . $categoryWid;
 
                 $cardHeader = HtmlCorrector::coverWithHref($cardHeader, $href);
 
@@ -67,12 +67,12 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
                             $imageTag->setImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
                             $imageTag->setImgClass('category-card-img-icon');
                             $imageTag->setImgAlt('alt nature. alt good');
-                            $imageIcons .= $imageTag->getHtml();
+                            $imageIcons .= $imageTag->getHtml();d
                         };
                         $counter++;
                     };
                 };
-                $imageIcons = HtmlCorrector::coverWithDiv($imageIcons);
+                $imageIcons = HtmlCorrector::coverWithDiv($imageIcons, NULL, 'category-card-body');
 
                 $resultHtml = $cardHeader . $imageIcons;
 

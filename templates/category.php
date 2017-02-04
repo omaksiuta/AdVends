@@ -3,13 +3,13 @@
 
 <head>
     <?php
-    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/standardFunctions.php";
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/Http.php";
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/php_include/tools/EncodeDecode.php";
+    require $_SERVER['DOCUMENT_ROOT'] . "/inc/standardFunctions.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/Http.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/EncodeDecode.php";
 
-    require $_SERVER['DOCUMENT_ROOT'] . "/php_include/builders/CategoryItemsPanelBuilder.php";
+    require $_SERVER['DOCUMENT_ROOT'] . "/inc/builders/CategoryItemsPanelBuilder.php";
     //    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/wp-content/themes/twentyfourteen/page-templates/css/");
-    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/php_include/css/");
+    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/inc/css/");
 
     ?>
 
