@@ -10,19 +10,21 @@
     <?php
     //    define("TEMPLATE_PATH", get_template_directory());
     //    echo TEMPLATE_PATH;
-//    echo get_theme_root() . '<br />';
-//    echo get_template_directory() . '<br />';
+    //    echo get_theme_root() . '<br />';
+    //    echo get_template_directory() . '<br />';
 
     require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/Http.php";
     require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/EncodeDecode.php";
     require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/builders/CategoryItemsPanelBuilder.php";
     ?>
-
+    <!--    --><?php //echo get_template_directory(); ?>
     <title>FlashCards Category</title>
+    <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory(); ?>/css/card.css"
+          media="all"/>
 
-    <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory(); ?>/inc/css/card.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory(); ?>css/card.css" media="all"/>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!--    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>-->
 </head>
 
 <body>
