@@ -67,7 +67,7 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
                             $imageTag->setImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
                             $imageTag->setImgClass('category-card-img-icon');
                             $imageTag->setImgAlt('alt nature. alt good');
-                            $imageIcons .= $imageTag->getHtml();d
+                            $imageIcons .= $imageTag->getHtml();
                         };
                         $counter++;
                     };
