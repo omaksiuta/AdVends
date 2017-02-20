@@ -1,8 +1,8 @@
 <!-- http://www.w3schools.com/php/php_mysql_connect.asp -->
 <?php
 include 'config.php';
-require $_SERVER['DOCUMENT_ROOT'] . "/inc/standardFunctions.php";
-require $_SERVER['DOCUMENT_ROOT'] . "/inc/encodingFunctions.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/php-include/standardFunctions.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/php-include/encodingFunctions.php";
 
 function connectDbWithCredentials()
 {

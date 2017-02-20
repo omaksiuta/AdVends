@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/containers/AbstractHtmlContainer.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/containers/AbstractHtmlContainer.php";
 
 class ImageContainer extends AbstractHtmlContainer
 {

@@ -1,42 +1,31 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <?php echo get_theme_root() . '<br />'; ?>
-
-    <?php echo get_template_directory(); ?>
-
-
-
-    <?php
-
-    require "../../inc/standardFunctions.php";
-    //    require $_SERVER['DOCUMENT_ROOT'] . "/inc/standardFunctions.php";
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/Http.php";
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/EncodeDecode.php";
-
-    require $_SERVER['DOCUMENT_ROOT'] . "/inc/builders/CategoryItemsPanelBuilder.php";
-    //    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/wp-content/themes/twentyfourteen/page-page-templates/css/");
-    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/inc/css/");
-    echo CSS_ROOT_PATH;
-
-    ?>
-
-    <title>FlashCards Category</title>
-
-    <link type="text/css" rel="stylesheet" href="<?php echo CSS_ROOT_PATH; ?>card.css" media="all"/>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-</head>
-
-<body>
-
-
 <?php
 
 /* Template Name: category.php */
 //get_header();
 ?>
+
+<head>
+    <?php
+    //    define("TEMPLATE_PATH", get_template_directory());
+    //    echo TEMPLATE_PATH;
+//    echo get_theme_root() . '<br />';
+//    echo get_template_directory() . '<br />';
+
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/Http.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/EncodeDecode.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/builders/CategoryItemsPanelBuilder.php";
+    ?>
+
+    <title>FlashCards Category</title>
+
+    <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory(); ?>/inc/css/card.css" media="all"/>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+</head>
+
+<body>
 
 
 <div id='categoryItemsPanel'>

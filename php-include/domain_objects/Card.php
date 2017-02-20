@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/domain_objects/AbstractDomainObject.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/domain_objects/AbstractDomainObject.php";
 
 class Card extends AbstractDomainObject
 {

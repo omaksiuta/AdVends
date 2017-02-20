@@ -1,10 +1,10 @@
 <!--https://sourcemaking.com/design_patterns/builder/java/2-->
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/tools/HtmlCorrector.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/builders/AbstractHtmlBuilder.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/containers/ImageContainer.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/domain_objects/Card.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/inc/enums/CardType.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/HtmlCorrector.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/builders/AbstractHtmlBuilder.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/containers/ImageContainer.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/domain_objects/Card.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/enums/CardType.php";
 
 class CardBuilder extends AbstractHtmlBuilder
 {
