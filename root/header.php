@@ -61,7 +61,7 @@
 <div class="blog-masthead">
     <div class="container">
         <nav class="blog-nav">
-            <a class="blog-nav-item active" href="home.php">Info </a>
+            <a class="blog-nav-item active" href="template-pages/home.php">Info </a>
             <a class="blog-nav-item" href="categories.php">Description</a>
         </nav>
     </div>
