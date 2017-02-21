@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <?php
 
-/* Template Name: category.php */
+/* Template Name: category-items */
 //get_header();
 ?>
 
