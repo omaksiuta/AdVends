@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/containers/AbstractHtmlContainer.php";
 
-class ImageContainer extends AbstractHtmlContainer
+class HrefContainer extends AbstractHtmlContainer
 {
     private $imgSrc = NULL;
     private $imgAlt = NULL;

@@ -14,7 +14,7 @@
     $currentPage = $http->currentPage();
     $allCategoriesPanelBuilder = new AllCategoriesPanelBuilder();
     $allCategoriesPanelBuilder->setCategoryPage($currentPage);
-    $allCategoriesPanelBuilder->setMaxItemsToShow(10);
+    $allCategoriesPanelBuilder->setMaxItemsToShow(20);
 
     echo $allCategoriesPanelBuilder->buildHtml();
     ?>

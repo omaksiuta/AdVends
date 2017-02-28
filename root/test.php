@@ -2,7 +2,6 @@
 <?php get_header(); ?>
 
 
-
 <div id='allCategoriesPanel' class="row">
     <?php
     require $_SERVER['DOCUMENT_ROOT'] . "/php-include/standardFunctions.php";
@@ -24,7 +23,7 @@
 
     $allCategoriesPanelBuilder = new AllCategoriesPanelBuilder();
     $allCategoriesPanelBuilder->setCategoryPage($currentPage);
-    $allCategoriesPanelBuilder->setMaxItemsToShow(12);
+    $allCategoriesPanelBuilder->setMaxItemsToShow(20);
 
     echo $allCategoriesPanelBuilder->buildHtml();
     ?>
@@ -35,7 +34,7 @@
 
     <div class="col-sm-8 blog-main">
 
-<!--        --><?php //get_template_part('content', get_post_format()); ?>
+        <!--        --><?php //get_template_part('content', get_post_format()); ?>
 
     </div> <!-- /.blog-main -->
 

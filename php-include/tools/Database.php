@@ -5,7 +5,18 @@
 //http://www.w3schools.com/php/func_mysqli_fetch_array.asp
 class Database
 {
-    private $sqlAllCategoriesData = "SELECT
+
+
+    private $sqlAllCategoriesPanelItems = "SELECT
+                                            v1.WID
+                                            ,v1.PARENT_WID
+                                            ,v1.EN
+                                            ,v1.RU  
+                                        FROM tbl_vocabulary v1
+                                        WHERE v1.WID in (SELECT WID  FROM tbl_vocabulary WHERE )
+                                        ORDER BY v1.EN  DESC;";
+
+    private $sqlMultipleCategoryItems = "SELECT
                                             v1.WID
                                             ,v1.PARENT_WID
                                             ,v1.EN
@@ -15,12 +26,7 @@ class Database
                                         JOIN tbl_vocabulary v2 on v1.WID=v2.WID
                                         GROUP BY v1.EN
                                         ORDER BY v1.PARENT_WID, ITEMS_COUNT DESC;";
-    private $sqlCategoryItems = "SELECT
-                                            v1.WID
-                                            ,v1.PARENT_WID
-                                            ,v1.EN
-                                            ,v1.RU  
-                                        FROM tbl_vocabulary v1 WHERE PARENT_WID = 'w0000103';";
+
 
     function __construct()
     {
@@ -45,17 +51,41 @@ class Database
         return $conn;
     }
 
-    public function getAllCategoriesData()
+    public function getAllCategoriesWids()
     {
         $dbConnection = $this->connectAdvendsDb();
-        $sql = $this->sqlAllCategoriesData;
+        $sql = "SELECT
+                distinct v1.WID
+                FROM tbl_vocabulary v1 where PARENT_WID is NULL;";
+
         return $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
     }
 
-    public function getCategoryItems()
+    public function getAllCategoriesWithCountOfItems()
     {
         $dbConnection = $this->connectAdvendsDb();
-        $sql = $this->sqlCategoryItems;
+        $sql = "SELECT
+                PARENT_WID AS WID
+                ,(SELECT v0.EN from tbl_vocabulary v0 WHERE v0.WID=v1.PARENT_WID) as EN
+                ,(SELECT v0.RU from tbl_vocabulary v0 WHERE v0.WID=v1.PARENT_WID) as RU
+                ,count(v1.WID) as ITEMS_COUNT
+                FROM tbl_vocabulary v1
+                GROUP BY PARENT_WID
+                HAVING ITEMS_COUNT > 20;";
+
+        return $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
+    }
+
+    public function getItemsByCategory($commaSeparatedParentWids)
+    {
+        $dbConnection = $this->connectAdvendsDb();
+        $sql = "SELECT
+                  v1.WID
+                  ,v1.PARENT_WID
+                  ,v1.EN
+                  ,v1.RU
+                FROM tbl_vocabulary v1 WHERE PARENT_WID in ('$commaSeparatedParentWids');";
+//        echo $sql . ' < br />';
         return $this->sqlToArrayWithConnectionClose($dbConnection, $sql);
     }
 
@@ -70,7 +100,7 @@ class Database
             mysqli_free_result($result);
         };
         mysqli_close($dbConnection);
-//        echo '<br/> arrayOfSqlRows' . '$arrayOfSqlRows';
+//        echo ' < br /> arrayOfSqlRows' . '$arrayOfSqlRows';
         return $arrayOfSqlRows;
     }
 }

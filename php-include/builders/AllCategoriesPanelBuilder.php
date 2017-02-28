@@ -10,13 +10,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/containers/ImageContainer
 class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
 {
     private $categoryPage = NULL;
-    private $arrayOfSqlRows = NULL;
     private $maxItemsToShow = 0;
+    private $database = NULL;
 
     function __construct()
     {
-        $database = new Database();
-        $this->arrayOfSqlRows = $database->getAllCategoriesData();
+        $this->database = new Database();
 //        echo sizeof($this->arrayOfSqlRows);
     }
 
@@ -33,51 +32,54 @@ class AllCategoriesPanelBuilder extends AbstractHtmlBuilder
     public function buildHtml()
     {
         $resultHtml = '';
-        foreach ($this->arrayOfSqlRows as $rowOfCategory) {
+
+        $arrayOfSqlRows_CategoriesNameAndCount = $this->database->getAllCategoriesWithCountOfItems();
+        echo sizeof($arrayOfSqlRows_CategoriesNameAndCount) . '<br />';
+
+        foreach ($arrayOfSqlRows_CategoriesNameAndCount as $rowOfCategory) {
             $categoryWid = $rowOfCategory['WID'];
             $categoryItemsCount = $rowOfCategory['ITEMS_COUNT'];
 
-            if ($categoryItemsCount > 0) {
+            //Create Header
+            $categoryAndCount = new CategoryAndCountContainer();
+            $categoryAndCount->setCategoryPage($this->categoryPage);
+            $categoryAndCount->setCategoryWid($categoryWid);
+            $categoryAndCount->setCategoryName($rowOfCategory['EN']);
+            $categoryAndCount->setCategoryItemsCount($categoryItemsCount);
 
-                //Create Header
-                $categoryAndCount = new CategoryAndCountContainer();
-                $categoryAndCount->setCategoryPage($this->categoryPage);
-                $categoryAndCount->setCategoryWid($categoryWid);
-                $categoryAndCount->setCategoryName($rowOfCategory['EN']);
-                $categoryAndCount->setCategoryItemsCount($categoryItemsCount);
+            $cardHeader = $categoryAndCount->getHtml();
 
-                $cardHeader = $categoryAndCount->getHtml();
+            $href = $this->categoryPage . "categories/" . "?id=" . $categoryWid;
 
-                $href = $this->categoryPage . "categories/" . "?id=" . $categoryWid;
+            $cardHeader = HtmlCorrector::coverWithHref($cardHeader, $href);
 
-                $cardHeader = HtmlCorrector::coverWithHref($cardHeader, $href);
+            $cardHeader = HtmlCorrector::coverWithDiv($cardHeader, NULL, 'category-card-text-and-count');
 
-                $cardHeader = HtmlCorrector::coverWithDiv($cardHeader, NULL, 'category-card-text-and-count');
+            //Search for sub-items
+            $arrayOfSqlRows_CategoryItems = $this->database->getItemsByCategory($categoryWid);
+            echo sizeof($arrayOfSqlRows_CategoryItems) . '<br />';
 
-                //Search for sub-items
-                $imageIcons = '';
 
-                $counter = 0;
-                foreach ($this->arrayOfSqlRows as $rowOfItem) {
-                    $item_parent_wid = $rowOfItem['PARENT_WID'];
-                    if ($item_parent_wid == $categoryWid) {
-                        if ($counter < $this->maxItemsToShow) {
-                            //build img icon
-                            $imageTag = new ImageContainer();
-                            $imageTag->setImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
-                            $imageTag->setImgClass('category-card-img-icon');
-                            $imageTag->setImgAlt('alt nature. alt good');
-                            $imageIcons .= $imageTag->getHtml();
-                        };
-                        $counter++;
-                    };
+            $imageIcons = '';
+
+            $counter = 0;
+            foreach ($arrayOfSqlRows_CategoryItems as $rowOfItem) {
+                $item_parent_wid = $rowOfItem['PARENT_WID'];//to add name or moew
+                if ($counter < $this->maxItemsToShow) {
+                    //build img icon
+                    $imageTag = new ImageContainer();
+                    $imageTag->setImgSrc("http://images.freeimages.com/images/home-grids/180/school-desks-1418686.jpg");
+                    $imageTag->setImgClass('category-card-img-icon');
+                    $imageTag->setImgAlt('alt nature. alt good');
+                    $imageIcons .= $imageTag->getHtml();
                 };
-                $imageIcons = HtmlCorrector::coverWithDiv($imageIcons, NULL, 'category-card-body');
-
-                $resultHtml = $cardHeader . $imageIcons;
-
-                $resultHtml .= HtmlCorrector::coverWithDiv($resultHtml, NULL, 'category-card');
+                $counter++;
             };
+            $imageIcons = HtmlCorrector::coverWithDiv($imageIcons, NULL, 'category-card-body');
+
+            $resultHtml = $cardHeader . $imageIcons;
+
+            $resultHtml .= HtmlCorrector::coverWithDiv($resultHtml, NULL, 'category-card');
         };
         return $resultHtml;
     }

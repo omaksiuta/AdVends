@@ -18,7 +18,7 @@ class CategoryItemsPanelBuilder extends AbstractHtmlBuilder
     function __construct()
     {
         $database = new Database();
-        $this->arrayOfSqlRows = $database->getCategoryItems();
+        $this->arrayOfSqlRows = $database->getItemsByCategory();
     }
 
     public function setCategoryPage($categoryPage)
