@@ -11,14 +11,16 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/enums/CardType.php";
 
 class CategoryItemsPanelBuilder extends AbstractHtmlBuilder
 {
+    private $categoryWid = NULL;
     private $categoryPage = NULL;
-    private $arrayOfSqlRows = NULL;
     private $maxItemsToShow = 0;
+    private $database = NULL;
+
 
     function __construct()
     {
-        $database = new Database();
-        $this->arrayOfSqlRows = $database->getItemsByCategory();
+//        echo "construct";
+        $this->database = new Database();
     }
 
     public function setCategoryPage($categoryPage)
@@ -31,15 +33,22 @@ class CategoryItemsPanelBuilder extends AbstractHtmlBuilder
         $this->maxItemsToShow = $maxItemsToShow;
     }
 
+    public function setCategoryWid($categoryWid)
+    {
+        $this->categoryWid = trim(strtoupper($categoryWid));
+    }
+
     public function buildHtml()
     {
         $resultHtml = '';
 
-        $counter = 0;
+        $counter = 1;
 
-        foreach ($this->arrayOfSqlRows as $rowOfItem) {
+        $arrayOfSqlRows = $this->database->getItemsByCategory($this->categoryWid);
+
+        foreach ($arrayOfSqlRows as $rowOfItem) {
             if (strlen(str_replace(' ', '', $rowOfItem['WID'])) != 0) {
-                if ($counter < $this->maxItemsToShow) {
+                if ($counter <= $this->maxItemsToShow) {
 
 //            echo "<br/> WID" . $rowOfItem['WID'];
                     $card = new Card();
@@ -63,6 +72,7 @@ class CategoryItemsPanelBuilder extends AbstractHtmlBuilder
                 };
             };
         };
+//        echo $resultHtml;
         return $resultHtml;
     }
 }

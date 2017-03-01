@@ -3,30 +3,30 @@
 
 
 <div id='allCategoriesPanel' class="row">
-    <?php
-    require $_SERVER['DOCUMENT_ROOT'] . "/php-include/standardFunctions.php";
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/Database.php";
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/Http.php";
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/EncodeDecode.php";
-
-    require $_SERVER['DOCUMENT_ROOT'] . "/php-include/builders/AllCategoriesPanelBuilder.php";
-
-
-    //    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/wp-content/themes/twentyfourteen/page-page-templates/css/");
-    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/php-include/css/");
-
-    ?>
-
-    <?php
-    $http = new Http();
-    $currentPage = $http->currentPage();
-
-    $allCategoriesPanelBuilder = new AllCategoriesPanelBuilder();
-    $allCategoriesPanelBuilder->setCategoryPage($currentPage);
-    $allCategoriesPanelBuilder->setMaxItemsToShow(20);
-
-    echo $allCategoriesPanelBuilder->buildHtml();
-    ?>
+<!--    --><?php
+//    require $_SERVER['DOCUMENT_ROOT'] . "/php-include/standardFunctions.php";
+//    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/Database.php";
+//    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/Http.php";
+//    require_once $_SERVER['DOCUMENT_ROOT'] . "/php-include/tools/EncodeDecode.php";
+//
+//    require $_SERVER['DOCUMENT_ROOT'] . "/php-include/builders/AllCategoriesPanelBuilder.php";
+//
+//
+//    //    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/wp-content/themes/twentyfourteen/page-page-templates/css/");
+//    define("CSS_ROOT_PATH", getHostProtocol() . $_SERVER['HTTP_HOST'] . "/php-include/css/");
+//
+//    ?>
+<!---->
+<!--    --><?php
+//    $http = new Http();
+//    $currentPage = $http->currentPage();
+//
+//    $allCategoriesPanelBuilder = new AllCategoriesPanelBuilder();
+//    $allCategoriesPanelBuilder->setCategoryPage($currentPage);
+//    $allCategoriesPanelBuilder->setMaxItemsToShow(20);
+//
+////    echo $allCategoriesPanelBuilder->buildHtml();
+//    ?>
 </div>
 
 <div class="row">

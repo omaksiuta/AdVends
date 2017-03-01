@@ -7,9 +7,9 @@ get_header(); ?>
 
             <?php get_template_part('/template-parts/page/all-categories-panel', get_post_format()); ?>
 
-        </div> <!-- /.blog-main -->
+<!--        </div> <!-- /.blog-main -->-->
 
-        <?php get_sidebar(); ?>
+<!--        --><?php //get_sidebar(); ?>
 
     </div> <!-- /.row -->
 

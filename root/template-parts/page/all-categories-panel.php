@@ -14,9 +14,10 @@
     $currentPage = $http->currentPage();
     $allCategoriesPanelBuilder = new AllCategoriesPanelBuilder();
     $allCategoriesPanelBuilder->setCategoryPage($currentPage);
-    $allCategoriesPanelBuilder->setMaxItemsToShow(20);
-
-    echo $allCategoriesPanelBuilder->buildHtml();
+    $allCategoriesPanelBuilder->setMaxItemsToShow(15);
+    $allCategoriesPanelBuilder->setMaxSubItemsToShow(9);
+    $resultHtml = $allCategoriesPanelBuilder->buildHtml();
+    echo $resultHtml;
     ?>
 </div>
 <!--http://stackoverflow.com/questions/3472087/how-to-use-wp-enqueue-style-in-my-wordpress-theme-->

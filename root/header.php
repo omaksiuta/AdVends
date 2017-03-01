@@ -33,12 +33,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">ERUDITE CARDS</a>
+            <a class="navbar-brand" href="/home/">ERUDITE CARDS</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="http://advends.com/en/home/">Home</a></li>
-                <li class="active"><a href="http://advends.com/ru/category-items/">Category Items</a></li>
+                <li class="active"><a href="/home/">Home</a></li>
+                <li class="active"><a href="/category-items/">Category Items</a></li>
                 <!--                <li class="dropdown">-->
                 <!--                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>-->
                 <!--                    <ul class="dropdown-menu">-->

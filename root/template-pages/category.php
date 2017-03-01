@@ -1,6 +1,5 @@
 <?php /* Template Name: category-items */
 get_header(); ?>
-
     <div class="row">
 
         <div class="col-sm-8 blog-main">
