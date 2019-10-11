@@ -1,0 +1,15 @@
+
+---Downloaded files---
+The import files for: Simple Homepage were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8881
+Data file = /Users/oleksandrmaksiuta/webdev/wordpress/wp-content/plugins/elegant-blocks/theme/bizberg/demo/demo-content.xml
+Widget file = not defined!
+Customizer file = /Users/oleksandrmaksiuta/webdev/wordpress/wp-content/plugins/elegant-blocks/theme/bizberg/demo/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
