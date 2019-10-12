@@ -1,0 +1,121 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:02
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+}
+
+.flaticon-3-standing-archives:before { content: "\f100"; }
+.flaticon-auricular-of-a-phone:before { content: "\f101"; }
+.flaticon-bag-with-handle:before { content: "\f102"; }
+.flaticon-baggage-doodle:before { content: "\f103"; }
+.flaticon-bar-graphic-doodle:before { content: "\f104"; }
+.flaticon-basket-doodle:before { content: "\f105"; }
+.flaticon-blank-paper-doodle:before { content: "\f106"; }
+.flaticon-blank-tag-doodle:before { content: "\f107"; }
+.flaticon-calculator-doodle:before { content: "\f108"; }
+.flaticon-cd-with-shines:before { content: "\f109"; }
+.flaticon-chart-presentation-doodle:before { content: "\f10a"; }
+.flaticon-circles-doodle:before { content: "\f10b"; }
+.flaticon-circular-grid:before { content: "\f10c"; }
+.flaticon-clip-doodle:before { content: "\f10d"; }
+.flaticon-clipboard-with-filled-out-paper:before { content: "\f10e"; }
+.flaticon-clipboard-with-paper:before { content: "\f10f"; }
+.flaticon-clothing-hanger-doodle:before { content: "\f110"; }
+.flaticon-computer-doodle-outline:before { content: "\f111"; }
+.flaticon-computer-mouse-draw:before { content: "\f112"; }
+.flaticon-cross-mark:before { content: "\f113"; }
+.flaticon-cup-doodle:before { content: "\f114"; }
+.flaticon-cut-flag:before { content: "\f115"; }
+.flaticon-database-gross-rustic-lines-symbol:before { content: "\f116"; }
+.flaticon-dollar-sign-inside-oval-shape:before { content: "\f117"; }
+.flaticon-doodle-frame:before { content: "\f118"; }
+.flaticon-draw-bag:before { content: "\f119"; }
+.flaticon-draw-battery-charging-status:before { content: "\f11a"; }
+.flaticon-draw-bible-book-with-bookmark:before { content: "\f11b"; }
+.flaticon-draw-boat:before { content: "\f11c"; }
+.flaticon-draw-calendar:before { content: "\f11d"; }
+.flaticon-draw-calendar-day-five:before { content: "\f11e"; }
+.flaticon-draw-cellular-phone:before { content: "\f11f"; }
+.flaticon-draw-check-mark:before { content: "\f120"; }
+.flaticon-draw-computer-screen:before { content: "\f121"; }
+.flaticon-draw-credit-card:before { content: "\f122"; }
+.flaticon-draw-directional-compass:before { content: "\f123"; }
+.flaticon-draw-film-strip:before { content: "\f124"; }
+.flaticon-draw-flag:before { content: "\f125"; }
+.flaticon-draw-information-sign:before { content: "\f126"; }
+.flaticon-draw-magnifying-lens:before { content: "\f127"; }
+.flaticon-draw-mercury-thermometer-with-high-temperature:before { content: "\f128"; }
+.flaticon-draw-pie-graph:before { content: "\f129"; }
+.flaticon-draw-printer-with-paper:before { content: "\f12a"; }
+.flaticon-draw-star:before { content: "\f12b"; }
+.flaticon-draw-t-shirt:before { content: "\f12c"; }
+.flaticon-draw-upload-arrow:before { content: "\f12d"; }
+.flaticon-drawn-drawer:before { content: "\f12e"; }
+.flaticon-drawn-fence:before { content: "\f12f"; }
+.flaticon-envelope-doodle:before { content: "\f130"; }
+.flaticon-floppy-disk-doodle:before { content: "\f131"; }
+.flaticon-flower-with-petals:before { content: "\f132"; }
+.flaticon-full-inbox-doodle:before { content: "\f133"; }
+.flaticon-game-control-doodle:before { content: "\f134"; }
+.flaticon-gift-bag:before { content: "\f135"; }
+.flaticon-half-filled-battery-status-doodle:before { content: "\f136"; }
+.flaticon-hammer-and-wrench-doodle:before { content: "\f137"; }
+.flaticon-heart-doodle:before { content: "\f138"; }
+.flaticon-large-pointer:before { content: "\f139"; }
+.flaticon-lightbulb-doodle-with-shine:before { content: "\f13a"; }
+.flaticon-line-graph-doodle:before { content: "\f13b"; }
+.flaticon-locked-padlock:before { content: "\f13c"; }
+.flaticon-microphone-drawing:before { content: "\f13d"; }
+.flaticon-mobile-gaming-device:before { content: "\f13e"; }
+.flaticon-mouse-arrow:before { content: "\f13f"; }
+.flaticon-music-quaver-draw:before { content: "\f140"; }
+.flaticon-network-forum-avatar-doodle:before { content: "\f141"; }
+.flaticon-open-box-doodle:before { content: "\f142"; }
+.flaticon-open-empty-folder-outline:before { content: "\f143"; }
+.flaticon-open-padlock:before { content: "\f144"; }
+.flaticon-origami-airplane:before { content: "\f145"; }
+.flaticon-painting-palette:before { content: "\f146"; }
+.flaticon-plus-sign:before { content: "\f147"; }
+.flaticon-power-button-doodle:before { content: "\f148"; }
+.flaticon-recycling-sign-doodle:before { content: "\f149"; }
+.flaticon-rewind-arrow-draw:before { content: "\f14a"; }
+.flaticon-rounded-draw-airplane:before { content: "\f14b"; }
+.flaticon-shooting-target-doodle:before { content: "\f14c"; }
+.flaticon-shop-cart-doodle:before { content: "\f14d"; }
+.flaticon-small-palm-tree:before { content: "\f14e"; }
+.flaticon-speech-bubble:before { content: "\f14f"; }
+.flaticon-speech-bubble-with-text-doodle:before { content: "\f150"; }
+.flaticon-spring-binder-notebook:before { content: "\f151"; }
+.flaticon-star-doodle:before { content: "\f152"; }
+.flaticon-suitcase-doodle:before { content: "\f153"; }
+.flaticon-text-page-doodle:before { content: "\f154"; }
+.flaticon-tiny-cloud:before { content: "\f155"; }
+.flaticon-trash-bin-doodle:before { content: "\f156"; }
+.flaticon-up-arrow-draw:before { content: "\f157"; }
+.flaticon-upside-down-wifi-symbol:before { content: "\f158"; }
+.flaticon-user-information-doodle:before { content: "\f159"; }
+.flaticon-volume-levels-or-bars-graph:before { content: "\f15a"; }

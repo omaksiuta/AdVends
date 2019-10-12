@@ -1,0 +1,118 @@
+body{overflow-x:hidden}
+.wp-core-ui .button-primary{background:#0473aa!important;border-color:#0473aa!important;box-shadow:0 1px 0 #0473aa!important;color:#fff!important;text-decoration:none;text-shadow:0 -1px 1px #0473aa,1px 0 1px #0473aa,0 1px 1px #0473aa,-1px 0 1px #0473aa}
+
+.notice-success,div.updated{border-left-color:#0473aa}
+p#footer-upgrade{display:none}
+.acf-fields.-sidebar{padding:0 0 0 20% !important;position:relative;overflow:visible;min-height:300px}
+.acf-fr{width:100%;margin-top:10px!important}
+.acf-gallery.ui-resizable{height:200px!important}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,#adminmenu .wp-menu-arrow,#adminmenu .wp-menu-arrow div,#adminmenu li.current a.menu-top,#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,.folded #adminmenu li.current.menu-top,.folded #adminmenu li.wp-has-current-submenu{background:#0473aa!important}
+#gallery-metabox-list li{
+    float:left;
+    display: inline-block;
+    max-width: 116px;
+}
+#gallery-metabox-list .image-preview{
+    width:100px;
+}
+.gallery-add.button{
+    display: inline-block;
+    max-width: 100%;
+    background: #0473aa;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    border: 1px solid #0473aa;
+}
+#gallery-metabox-list .remove-icon-start{
+    width: 100%;
+    float: left;
+    z-index: 999;
+    position: relative;
+    margin-top: -30px;
+}
+#customize-controls img {
+    margin: 10px;
+}
+.customize-control-kirki-radio-buttonset .buttonset .switch-input:checked + .switch-label {
+    background-color: #5a00f0 !important;
+}
+.mayosis-license-details,.mayosis-system-stats{
+    background: #fff;
+    padding: 10px 30px 50px 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #000;
+    webkit-box-shadow: 0 5px 40px 0 rgba(10,10,25,.1);
+    -moz-box-shadow: 0 5px 40px 0 rgba(10,10,25,.1);
+    box-shadow: 0 5px 40px 0 rgba(10,10,25,.1);
+}
+.notice-success.mayosis-success-notice{
+    background-color: rgba(30, 170, 0, .1);
+    color: #1eaa00;
+}
+.mayosis-active{
+   background-color: rgba(30, 170, 0, .1);
+    color: #1eaa00;
+    padding: 3px 10px 5px 10px;
+    border-radius: 3px;
+}
+mark.green{
+    background-color: rgba(30, 170, 0, .1);
+    color: #1eaa00; 
+}
+.mayosis-inactive{
+    background-color: rgba(230, 30, 31, .1);
+    color: #e61e1f;
+    padding: 3px 10px 5px 10px;
+    border-radius: 3px;
+}
+mark.error{
+   background-color: rgba(230, 30, 31, .1);
+    color: #e61e1f; 
+}
+.mayosis-purchase-panel .notice-error.notice-alt {
+    background-color: rgba(230, 30, 31, .1);
+    padding: 1px 10px;
+    color: #e61e1f;
+    font-size: 16px;
+    line-height: 16px;
+}
+.mayosis-purchase-panel .notice-warning.notice-alt {
+    background-color: rgba(255, 185, 0, .1);
+    color: #ffb900;
+    padding: 1px 10px;
+    margin: 10px 0;
+}
+.mayosis-purchase-panel input[type=text]{
+    border: 2px solid #fff;
+    box-shadow: none;
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+    border-radius: 3px;
+    height: 50px;
+    font-weight: bold;
+}
+.mayosis-purchase-panel .button-primary {
+    background: #5a00f0 !important;
+    border-color: #5a00f0 !important;
+    box-shadow: 0 1px 0 #5a00f0!important;
+    color: #fff!important;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 5px 60px !important;
+    height: 50px !important;
+    font-size: 20px;
+}
+.system-status-table{
+   width:100%; 
+}
+.system-status-table tr td{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}

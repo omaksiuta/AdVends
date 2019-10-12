@@ -1,0 +1,3178 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Mayosis\n"
+"POT-Creation-Date: 2018-08-04 06:38+0600\n"
+"PO-Revision-Date: 2018-08-04 06:37+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:14
+msgid "Sorry!! Something Went Wrong!!!"
+msgstr ""
+
+#: 404.php:19
+msgid "40 + 4 ="
+msgstr ""
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"The Page You Are Looking For is Missing, Misspelled or Doesn&#39;t Exist!"
+msgstr ""
+
+#: 404.php:25
+msgid "We are Sorry For This Inconvenience! Don&#39;t Worry!!"
+msgstr ""
+
+#: 404.php:26
+msgid "Our"
+msgstr ""
+
+#: 404.php:26
+msgid "Homepage"
+msgstr ""
+
+#: 404.php:26
+msgid ""
+"will Guide You Through All of Our Awesome Things, Or You Can Have A Quick "
+"Look at Our Products!!!"
+msgstr ""
+
+#: admin/admin-pages/admin.php:14 admin/admin-pages/mayosis-welcome.php:29
+msgid "Welcome"
+msgstr ""
+
+#: admin/admin-pages/admin.php:16 admin/admin-pages/mayosis-welcome.php:31
+msgid "Demo Import"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:23
+msgid "Welcome to Mayosis Dashboard!"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:25
+msgid "mayosis theme is now installed and ready to use!"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:30
+msgid "Theme Options"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:38
+msgid ""
+"Before you get started, please be sure to always check out documentation "
+"Which Included In the theme folder or from <a href=\"https://teconce.com/"
+"help/docs/mayosis/\" target=\"_blank\">Website</a>. We outline all kinds of "
+"good information and provide you with all the details you need to use "
+"mayosis."
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:41
+msgid ""
+"If you are unable to find your answer in our documentation, please contact "
+"us via  <a href=\"https://teconce.com/help/submit-a-ticket/\" target=\"_blank"
+"\">submit a ticket</a> with your purchase code, site CPanel, and admin login "
+"info."
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:44
+msgid ""
+"We are very happy to help you and you will get the reply from us  faster "
+"than you expected."
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:48
+msgid "Note: Please Install All Required Plugins Before Install Demo !"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:60
+msgid "WP Version"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:65
+msgid "Language"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:70
+msgid "WP Memory Limit"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:75
+#, php-format
+msgid "%s - We recommend setting memory to at least 96MB. %s."
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:75
+msgid "More info"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:85
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:89
+#, php-format
+msgid ""
+"%s - We recommend setting PHP max_input_vars to at least 3000. See: <a href="
+"\"%s\" target=\"_blank\">Increasing the PHP max vars limit</a>"
+msgstr ""
+
+#: admin/admin-pages/mayosis-welcome.php:97
+msgid "PHP Version"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:14
+msgid "Left Menu"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:15
+msgid "Right Menu"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:29 admin/mayosis-admin-helper.php:46
+#: admin/mayosis-admin-helper.php:74 admin/mayosis-admin-helper.php:116
+#: admin/mayosis-admin-helper.php:170 admin/mayosis-admin-helper.php:239
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:30 admin/mayosis-admin-helper.php:47
+#: admin/mayosis-admin-helper.php:75 admin/mayosis-admin-helper.php:117
+#: admin/mayosis-admin-helper.php:171 admin/mayosis-admin-helper.php:240
+msgid "This is Footer First Column Sidebar."
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:58 admin/mayosis-admin-helper.php:86
+#: admin/mayosis-admin-helper.php:128 admin/mayosis-admin-helper.php:182
+#: admin/mayosis-admin-helper.php:251
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:59 admin/mayosis-admin-helper.php:87
+#: admin/mayosis-admin-helper.php:129 admin/mayosis-admin-helper.php:183
+#: admin/mayosis-admin-helper.php:252
+msgid "This is Footer Second Column Sidebar"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:99 admin/mayosis-admin-helper.php:141
+#: admin/mayosis-admin-helper.php:195 admin/mayosis-admin-helper.php:264
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:100 admin/mayosis-admin-helper.php:142
+#: admin/mayosis-admin-helper.php:196 admin/mayosis-admin-helper.php:265
+msgid "This is Footer Three Column Sidebar"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:154 admin/mayosis-admin-helper.php:208
+#: admin/mayosis-admin-helper.php:277
+msgid "Footer Widget Area 4"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:155 admin/mayosis-admin-helper.php:209
+#: admin/mayosis-admin-helper.php:278
+msgid "This is Footer Four Column Sidebar"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:222 admin/mayosis-admin-helper.php:291
+msgid "Footer Widget Area 5"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:223 admin/mayosis-admin-helper.php:292
+msgid "This is Footer Five Column Sidebar"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:304
+msgid "Footer Widget Area 6"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:305
+msgid "This is Footer Six Column Sidebar"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:320
+msgid "Additional Footer Widget Area 1"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:321
+msgid "This is Additional Footer First Column Sidebar."
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:332
+msgid "Additional Footer Widget Area 2"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:333
+msgid "This is Additional Footer Second Column Sidebar"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:344
+msgid "Additional Footer Widget Area 3"
+msgstr ""
+
+#: admin/mayosis-admin-helper.php:345
+msgid "This is Additional Footer Third Column Sidebar"
+msgstr ""
+
+#: admin/mayosis-demo-import.php:13
+msgid ""
+"Before Setup Demo Please Install All Plugin Requireds.Intall Visual Composer "
+"as Page Builder.For Import You Need to wait 3-5 Mintues."
+msgstr ""
+
+#: admin/mayosis-demo-import.php:26 admin/mayosis-demo-import.php:50
+msgid ""
+"Before Setup Demo Please Install All Plugin Requireds.Intall Elementor as "
+"Page Builder.For Import You Need to wait 3-5 Mintues."
+msgstr ""
+
+#: admin/mayosis-demo-import.php:38
+msgid ""
+"Before Setup Demo Please Install All Plugin Requireds.Intall WPbakery as "
+"Page Builder.For Import You Need to wait 3-5 Mintues."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:393
+#: admin/tgm/class-tgm-plugin-activation.php:923
+#: admin/tgm/class-tgm-plugin-activation.php:2647
+#: admin/tgm/class-tgm-plugin-activation.php:3696
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:394
+#: admin/tgm/class-tgm-plugin-activation.php:3275
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:395
+#: admin/tgm/class-tgm-plugin-activation.php:3068
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: admin/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:610
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:611
+msgid "Update Required"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:728
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1030
+#: admin/tgm/class-tgm-plugin-activation.php:1033
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1033
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1217
+#: admin/tgm/class-tgm-plugin-activation.php:3064
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: admin/tgm/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2387
+msgid "Required"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2390
+msgid "Recommended"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2406
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2409
+msgid "External Source"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2412
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2429
+msgid "Not Installed"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2433
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2435
+msgid "Active"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2441
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2444
+msgid "Requires Update"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2447
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: admin/tgm/class-tgm-plugin-activation.php:2456
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: admin/tgm/class-tgm-plugin-activation.php:2502
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: admin/tgm/class-tgm-plugin-activation.php:2506
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: admin/tgm/class-tgm-plugin-activation.php:2510
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: admin/tgm/class-tgm-plugin-activation.php:2514
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2596
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2604
+msgid "Installed version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2612
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2624
+msgid "Available version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2647
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2661
+msgid "Plugin"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2662
+msgid "Source"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2663
+msgid "Type"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2667
+msgid "Version"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2668
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/tgm/class-tgm-plugin-activation.php:2717
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/tgm/class-tgm-plugin-activation.php:2722
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/tgm/class-tgm-plugin-activation.php:2728
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2800
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2833
+msgid "Install"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2839
+msgid "Update"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2842
+msgid "Activate"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2873
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2875
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2916
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2918
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3024
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3050
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3274
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm/class-tgm-plugin-activation.php:3614
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: admin/tgm/class-tgm-plugin-activation.php:3617
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:3619
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3623
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:3625
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3625
+#: admin/tgm/class-tgm-plugin-activation.php:3633
+msgid "Show Details"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3625
+#: admin/tgm/class-tgm-plugin-activation.php:3633
+msgid "Hide Details"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3626
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm/class-tgm-plugin-activation.php:3628
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3631
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:3633
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3634
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm/class-tgm-plugin-activation.php:3636
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:32
+msgid "Envato Market"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:39
+msgid "Visual Composer"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:46
+msgid "Elementor"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:51
+msgid "Advanced Custom Field Pro"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:57
+msgid "Mayosis  Core"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:64 admin/tgm/tgm-init.php:76
+msgid "Easy Digital Download"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:70
+msgid "EDD Featured"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:82
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:88
+msgid "One Click Demo Import"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:93
+msgid "User Avatar"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:9
+msgid "Footer"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:10
+msgid "mayosis Footer"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:15
+msgid "Footer Options"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:18
+msgid "Change site footer options"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:28
+msgid "Footer Widget"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:33
+#: admin/theme-panel/footer-options.php:179
+#: admin/theme-panel/footer-options.php:202
+#: admin/theme-panel/header-options.php:94
+#: admin/theme-panel/header-options.php:311
+#: admin/theme-panel/header-options.php:331
+#: admin/theme-panel/header-options.php:351
+#: admin/theme-panel/header-options.php:392
+#: admin/theme-panel/header-options.php:444
+#: admin/theme-panel/header-options.php:457
+#: admin/theme-panel/header-options.php:627
+#: admin/theme-panel/header-options.php:691
+#: admin/theme-panel/mayosis-studio.php:277
+#: admin/theme-panel/product-options.php:194
+#: admin/theme-panel/product-options.php:208
+#: admin/theme-panel/product-options.php:222
+#: admin/theme-panel/product-options.php:235 admin/theme-panel/template.php:46
+#: admin/theme-panel/template.php:293 admin/theme-panel/template.php:341
+#: admin/theme-panel/template.php:572 admin/theme-panel/template.php:585
+msgid "Show"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:34
+#: admin/theme-panel/footer-options.php:180
+#: admin/theme-panel/footer-options.php:203
+#: admin/theme-panel/header-options.php:95
+#: admin/theme-panel/header-options.php:312
+#: admin/theme-panel/header-options.php:332
+#: admin/theme-panel/header-options.php:352
+#: admin/theme-panel/header-options.php:393
+#: admin/theme-panel/header-options.php:445
+#: admin/theme-panel/header-options.php:458
+#: admin/theme-panel/header-options.php:628
+#: admin/theme-panel/header-options.php:692
+#: admin/theme-panel/mayosis-studio.php:278
+#: admin/theme-panel/product-options.php:195
+#: admin/theme-panel/product-options.php:209
+#: admin/theme-panel/product-options.php:223
+#: admin/theme-panel/product-options.php:236 admin/theme-panel/template.php:47
+#: admin/theme-panel/template.php:294 admin/theme-panel/template.php:342
+#: admin/theme-panel/template.php:573 admin/theme-panel/template.php:586
+msgid "Hide"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:41
+msgid "Footer Widget Column"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:46
+msgid "One"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:47
+msgid "Two"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:48
+msgid "Three"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:49
+msgid "Four"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:50
+msgid "Five"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:51
+msgid "Six"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:67
+msgid "Column One Width"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:68
+msgid "Add Column One Width on %"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:84
+msgid "Column Two Width"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:85
+msgid "Add Column Two Width on %"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:102
+msgid "Column Three Width"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:103
+msgid "Add Column Three Width on %"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:120
+msgid "Column Four Width"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:121
+msgid "Add Column Four Width on %"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:138
+msgid "Column Five Width"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:139
+msgid "Add Column Five Width on %"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:156
+msgid "Column Six Width"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:157
+msgid "Add Column Six Width on %"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:174
+msgid "Footer Additional Widget"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:197
+msgid "Copyright Footer"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:211
+msgid "Footer Padding"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:212
+msgid "Change Footer Padding"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:224
+msgid "Copyright Text"
+msgstr ""
+
+#: admin/theme-panel/footer-options.php:226
+msgid "Copyright 2018 Mayosis Studio, All rights reserved!"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:9
+msgid "Header"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:10
+msgid "mayosis Header"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:14
+msgid "Main header"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:17
+msgid "Change site header options"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:21
+msgid "Top header"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:24
+msgid "Change Top header options"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:28
+msgid "Header Options"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:31
+msgid "Change Header Style options"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:35
+#: admin/theme-panel/header-options.php:414
+#: admin/theme-panel/header-options.php:429
+#: admin/theme-panel/header-options.php:636 includes/mobile-header.php:28
+#: templates/center-logo-header.php:55 templates/center-logo-header.php:57
+#: templates/main-header.php:42 templates/main-header.php:44
+#: templates/main-header.php:50 templates/sidebar-header.php:28
+msgid "Logo"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:38
+msgid "Change Logo options"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:42
+#: admin/theme-panel/header-options.php:677
+msgid "Favicon"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:45
+msgid "Upload Favicon"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:49
+#: admin/theme-panel/header-options.php:686
+msgid "Sticky Header"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:52
+msgid "Sticky Header Options"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:56 admin/theme-panel/template.php:260
+#: admin/theme-panel/template.php:555
+msgid "Breadcrumb"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:59
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:63
+#: admin/theme-panel/header-options.php:416
+#: admin/theme-panel/header-options.php:431
+msgid "Social"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:66
+msgid "Social Links"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:76
+msgid "Layout Type"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:89
+msgid "Main Logo"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:108
+msgid "Menu Position"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:113
+#: admin/theme-panel/header-options.php:175
+#: admin/theme-panel/header-options.php:195 admin/theme-panel/template.php:59
+#: admin/theme-panel/template.php:73 admin/theme-panel/template.php:354
+#: admin/theme-panel/template.php:368
+msgid "Left"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:114
+#: admin/theme-panel/header-options.php:176
+#: admin/theme-panel/header-options.php:196 admin/theme-panel/template.php:60
+#: admin/theme-panel/template.php:75 admin/theme-panel/template.php:355
+#: admin/theme-panel/template.php:370
+msgid "Right"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:128
+msgid "Select Left Side Option"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:133
+#: admin/theme-panel/header-options.php:154
+#: admin/theme-panel/product-options.php:73
+#: admin/theme-panel/product-options.php:88
+#: admin/theme-panel/product-options.php:103
+#: admin/theme-panel/product-options.php:119
+msgid "None"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:134
+#: admin/theme-panel/header-options.php:155
+#: admin/theme-panel/header-options.php:415
+#: admin/theme-panel/header-options.php:430
+msgid "Menu"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:135
+#: admin/theme-panel/header-options.php:156 library/widget.php:62
+msgid "Hamburger"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:149
+msgid "Select Right Side Option"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:170
+msgid "Left Menu Position"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:190
+msgid "Right Menu Position"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:210
+msgid "Right Side Option menu"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:215
+#: admin/theme-panel/header-options.php:271
+#: admin/theme-panel/header-options.php:291
+#: admin/theme-panel/header-options.php:704
+msgid "Enable"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:216
+#: admin/theme-panel/header-options.php:272
+#: admin/theme-panel/header-options.php:292
+#: admin/theme-panel/header-options.php:705
+msgid "Disable"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:230
+msgid "Sidebar Logo Icon Upload"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:231
+msgid "Recommanded Size 40x40px"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:246
+msgid "Default Side Menu"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:251
+msgid "Collapsed"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:252
+msgid "Expanded"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:266
+msgid "Search & Cart Menu"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:286
+msgid "Secondary Header"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:306
+msgid "Collapse Button"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:326
+msgid "Icon in Expanded Mode"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:346
+msgid "Text in Collapsed Mode"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:366
+msgid "Collapsed bar Width"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:387
+msgid "Top Header"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:400
+#: admin/theme-panel/header-options.php:490
+msgid "Header Height"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:401
+msgid "Change top header height"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:409
+msgid "Select Left Header Element"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:417
+#: admin/theme-panel/header-options.php:432
+msgid "Menu With Cart"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:424
+msgid "Select Right Header Element"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:439
+msgid "Top Cart"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:452
+msgid "Top Login/Logout"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:464
+msgid "Top Header Menu Icons Font Size"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:465
+msgid "Change Top Header Menu Icons Font Size"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:472
+msgid "Header Layout Manager"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:480 searchform.php:10
+msgid "Search"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:481
+msgid "Cart"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:482
+#: admin/theme-panel/header-options.php:597
+#: edd_templates/shortcode-login.php:35 includes/top-header-cart.php:26
+msgid "Login"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:491
+msgid "Change main header height"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:499
+msgid "Header Padding"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:500
+msgid "Change main header Padding"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:512
+msgid "Header Icon Size"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:513
+msgid "Change Header Icon Size"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:521
+msgid "Header Transparency"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:526
+#: admin/theme-panel/product-options.php:39
+msgid "Normal"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:527
+msgid "Transparent"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:534
+msgid "Cart Style"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:547
+msgid "Search Style"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:561
+msgid "Search Beahviour"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:566
+msgid "Dropdown"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:567
+msgid "Collapse"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:568
+msgid "Fullscreen Overlay"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:582
+msgid "Login/Logout Button Background Remove"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:587
+msgid "On"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:588
+msgid "Off"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:595
+msgid "Login Button Text"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:604
+msgid "Logout Button Text"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:606 includes/top-header-cart.php:33
+msgid "Logout"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:613
+msgid "Login Link"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:615
+msgid "http://demo.com/login"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:622
+msgid "Menu Icon"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:637
+#: admin/theme-panel/header-options.php:646
+msgid "Recommanded Height 40px"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:645
+msgid "Sticky Logo"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:654
+msgid "Logo height"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:655
+msgid "Add logo height"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:663
+msgid "Logo Margin"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:664
+msgid "Change Logo margin"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:678
+msgid "Recommanded 80 X 80px"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:699
+msgid "Smart Sticky "
+msgstr ""
+
+#: admin/theme-panel/header-options.php:719
+msgid "Page Breadcrumb Padding"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:720
+#: admin/theme-panel/header-options.php:734
+msgid "Change Breadcrumb Padding"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:733
+msgid "Product/Blog Breadcrumb Padding"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:745
+msgid "Social Icon"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:750
+msgid "Social Item"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:755
+#: admin/theme-panel/header-options.php:769
+msgid "Facebook"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:759
+#: admin/theme-panel/header-options.php:771
+msgid "Twitter"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:766 templates/sidebar-header.php:29
+msgid "Icon"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:773
+msgid "Instagram"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:775
+msgid "Google Plus"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:777
+msgid "Linked In"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:779
+msgid "Youtube"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:781
+msgid "vK"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:783
+msgid "Pinterest"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:785
+msgid "Dribbble"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:787
+msgid "Behance"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:789
+msgid "Flickr"
+msgstr ""
+
+#: admin/theme-panel/header-options.php:794
+msgid "Link URL"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:8
+msgid "Styles"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:9
+msgid "mayosis Colors Options"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:15
+msgid "Common Style"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:18
+msgid "Set Site Common Styles"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:22
+msgid "Header Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:25
+msgid "Set Site Header Colors"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:29
+msgid "Footer Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:32
+msgid "Set Site Footer Colors"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:36
+msgid "Product/Blog Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:39
+msgid "Set Site Product/Blog Colors"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:43
+msgid "Widget Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:46
+msgid "Set Site Widget Colors"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:50
+msgid "Page Builder Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:53
+msgid "Set page builder button Colors"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:63
+msgid "Site Direction"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:68
+msgid "LTR"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:69
+msgid "RTL"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:77
+msgid "Body Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:78
+msgid "Main Site Backgrounnd Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:97
+msgid "Secondary Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:98
+msgid "Change Secondary Backgrounnd Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:117
+msgid "Accent Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:118
+msgid "Whole Site Main Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:138
+msgid "Accent Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:139
+msgid "Accent above text color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:159
+msgid "Secondary Accent  Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:160
+msgid "Change secondary accent color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:180
+msgid "Secondary Accent Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:181
+msgid "Secondary accent above text color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:201
+msgid "Regular Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:202
+msgid "Change regular text color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:221
+#: admin/theme-panel/mayosis-studio.php:709
+#: admin/theme-panel/mayosis-studio.php:1053
+#: admin/theme-panel/mayosis-studio.php:1363
+msgid "Form Field Type"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:226
+#: admin/theme-panel/mayosis-studio.php:714
+#: admin/theme-panel/mayosis-studio.php:1058
+#: admin/theme-panel/mayosis-studio.php:1368
+msgid "Solid"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:227
+#: admin/theme-panel/mayosis-studio.php:715
+#: admin/theme-panel/mayosis-studio.php:1059
+#: admin/theme-panel/mayosis-studio.php:1369
+msgid "Border"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:234
+#: admin/theme-panel/mayosis-studio.php:780
+#: admin/theme-panel/mayosis-studio.php:1120
+#: admin/theme-panel/mayosis-studio.php:1430
+msgid "Border Thickness"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:235
+#: admin/theme-panel/mayosis-studio.php:1121
+#: admin/theme-panel/mayosis-studio.php:1431
+msgid "Add Main Site Form Border Thickness"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:251
+msgid "Visited Link Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:252
+msgid "Change visited link color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:272
+msgid "Website Loader"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:285
+msgid "Loader gradient"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:296
+#: admin/theme-panel/mayosis-studio.php:362
+#: admin/theme-panel/mayosis-studio.php:956
+#: admin/theme-panel/mayosis-studio.php:1280 admin/theme-panel/template.php:139
+#: admin/theme-panel/template.php:431 admin/theme-panel/white-label.php:40
+msgid "Form"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:297
+#: admin/theme-panel/mayosis-studio.php:363
+#: admin/theme-panel/mayosis-studio.php:957
+#: admin/theme-panel/mayosis-studio.php:1281 admin/theme-panel/template.php:140
+#: admin/theme-panel/template.php:432 admin/theme-panel/white-label.php:41
+msgid "To"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:310
+msgid "Header Background Type"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:315
+#: admin/theme-panel/mayosis-studio.php:480
+#: admin/theme-panel/mayosis-studio.php:909
+#: admin/theme-panel/mayosis-studio.php:1262 admin/theme-panel/template.php:89
+#: admin/theme-panel/template.php:383
+msgid "Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:316
+#: admin/theme-panel/mayosis-studio.php:910
+#: admin/theme-panel/mayosis-studio.php:1263 admin/theme-panel/template.php:90
+#: admin/theme-panel/template.php:384
+msgid "Gradient"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:317
+#: admin/theme-panel/mayosis-studio.php:911 admin/theme-panel/template.php:91
+#: admin/theme-panel/template.php:385 fes_templates/frontend-products.php:8
+msgid "Image"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:324
+msgid "Main Header Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:325
+msgid "Set main header background color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:351
+msgid "Header gradient"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:373
+msgid "Header Background Image"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:374
+msgid "Upload header background image"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:389
+msgid "Transparent Header Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:390
+msgid "Only For Header 1 & 2"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:411
+msgid "Header Accent Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:412
+msgid "Change Accent Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:432
+msgid "Header Accent Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:433
+msgid "Change Accent Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:453
+msgid "Main Navigation Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:454
+#: admin/theme-panel/mayosis-studio.php:542
+msgid "Change navigation text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:474
+msgid "Menu Hover Type"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:481
+msgid "Opacity"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:482
+msgid "Underline"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:483
+msgid "Dotted"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:491
+msgid "Main Navigation Text Hover Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:492
+msgid "Change navigation text hover Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:520
+msgid "Sub Navigation Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:521
+msgid "Change navigation bg Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:541
+msgid "Sub Navigation Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:562
+msgid "Top Header Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:563
+msgid "Change top header bg Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:583
+msgid "To Header Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:584
+msgid "Change top header text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:604
+msgid "Top Header Menu Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:605
+msgid "Change top header menu text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:625
+msgid "Top Header Sub Menu Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:626
+msgid "Change top header sub menu text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:646
+msgid "Top Header Sub Menu Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:647
+msgid "Change top header sub menu background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:667
+msgid "Mobile Header Icons Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:668
+msgid "Change mobile Header Icons color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:688
+msgid "Mobile Menu Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:689
+msgid "Change mobile menu text color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:722
+#: admin/theme-panel/mayosis-studio.php:1066
+#: admin/theme-panel/mayosis-studio.php:1376
+msgid "Form Field Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:723
+#: admin/theme-panel/mayosis-studio.php:1067
+#: admin/theme-panel/mayosis-studio.php:1377
+msgid "Change Form Field Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:750
+msgid "Form Field Border Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:751
+msgid "Change form field border color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:781
+msgid "Add header form border thickness"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:797
+msgid "Header Button Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:798
+msgid "Change Header Button Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:819
+msgid "Header Button Border Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:820
+msgid "Change Header Button Border Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:841
+msgid "Header Button Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:842
+#: admin/theme-panel/mayosis-studio.php:885
+msgid "Change sticky header text color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:862
+msgid "Sticky Header Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:863
+msgid "Change sticky header background color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:884
+msgid "Sticky Header Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:904
+msgid "Footer Background Type"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:918
+msgid "Footer Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:919
+msgid "Set footer background color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:945
+msgid "Footer gradient"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:967
+msgid "Footer Background Image"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:968
+#: admin/theme-panel/mayosis-studio.php:984
+msgid "Upload footer background image"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:983
+msgid "Footer Overlay Image"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:991
+msgid "Footer text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:992
+msgid "Set footer text color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1012
+msgid "Copyright Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1013
+msgid "Set Copyright Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1033
+msgid "Copyright Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1034
+msgid "Set copyright text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1093
+#: admin/theme-panel/mayosis-studio.php:1403
+msgid "Form Border Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1094
+#: admin/theme-panel/mayosis-studio.php:1404
+msgid "Change Form border Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1139
+msgid "Breadcrumb Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1140
+msgid "Set Breadcrumb Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1160
+msgid "Thumbnail Hover Background"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1161
+msgid "Set Thumbnail Hover Background"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1180
+msgid "Thumbnail Hover Opacity"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1193
+msgid "Thumbnail Hover Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1194
+msgid "Set Thumbnail Hover Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1214
+msgid "Product Label Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1215
+msgid "Set Product Label Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1235
+msgid "Product Label Edge Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1236
+msgid "Set Product Label Edge Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1257
+msgid "Title Background Type"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1269
+msgid "Widget gradient"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1292
+msgid "Title Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1293
+msgid "Set Title Background color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1322
+msgid "Title Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1323
+msgid "Set Title color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1343
+msgid "Field Text Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1344
+msgid "Set Field Text color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1447
+msgid "Single Button Background"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1448
+#: admin/theme-panel/mayosis-studio.php:1469
+#: admin/theme-panel/mayosis-studio.php:1490
+msgid "Change Button background & Border Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1468
+msgid "Dual Button A Background"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1489
+msgid "Dual Button B Background"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1510
+msgid "Testimonial Grid Background"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1511
+msgid "Change Testimonial Grid Background"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1531
+msgid "Search Accent Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1532
+msgid "Change Search Main Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1551
+msgid "Search Accent Text  Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1552
+msgid "Change Accent Text  Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1572
+msgid "Search Main Background Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1573
+msgid "Change Search Main Bg Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1593
+msgid "Search Main Border Color"
+msgstr ""
+
+#: admin/theme-panel/mayosis-studio.php:1594
+msgid "Change Search Main Border Color"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:9
+msgid "Product Options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:10
+msgid "mayosis Product"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:14
+msgid "Grid Options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:17
+#: admin/theme-panel/product-options.php:24
+msgid "Change site Product options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:21
+msgid "Other Options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:34
+msgid "Product Grid System"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:40
+msgid "Masonary"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:47
+msgid "Product Grid Options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:52
+msgid "With Meta"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:53
+msgid "Without Meta"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:68
+msgid "Hover Top Elements"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:74
+#: admin/theme-panel/product-options.php:89
+msgid "Add to Cart"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:75
+#: admin/theme-panel/product-options.php:90
+msgid "Share"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:76
+#: admin/theme-panel/product-options.php:91
+#: admin/theme-panel/product-options.php:107
+msgid "Sales and Download"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:83
+msgid "Hover Bottom Elements"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:98
+msgid "Meta Options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:104
+msgid "Vendor"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:105 admin/theme-panel/template.php:263
+#: admin/theme-panel/template.php:558
+msgid "Category"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:106
+msgid "Vendor and Category"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:114
+msgid "Pricing Options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:120
+#: edd_templates/shortcode-receipt.php:134
+#: fes_templates/frontend-products.php:10
+msgid "Price"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:127
+msgid "Free Pricing Options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:132
+msgid "$0.00"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:133
+#: admin/theme-panel/product-options.php:147
+msgid "Custom Text"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:149
+msgid "FREE"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:164
+msgid "Variable Pricing Options"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:169
+msgid "Default"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:170
+msgid "Popup"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:180
+msgid "Live Preview Text"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:182
+msgid "Live Preview"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:189
+msgid "Product Bottom Buttons"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:203
+msgid "Product Bottom Buttons Text & Count"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:217
+msgid "Product Bottom Social Share"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:230
+msgid "Product Tags"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:244
+msgid "Product Gallery Layout Type"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:249
+msgid "Bottom Thumb"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:250
+msgid "Side Thumb"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:251
+msgid "Without Thumb"
+msgstr ""
+
+#: admin/theme-panel/product-options.php:252
+msgid "Carousel"
+msgstr ""
+
+#: admin/theme-panel/template.php:9
+msgid "Template"
+msgstr ""
+
+#: admin/theme-panel/template.php:10
+msgid "mayosis Template"
+msgstr ""
+
+#: admin/theme-panel/template.php:14
+msgid "Default Product Template"
+msgstr ""
+
+#: admin/theme-panel/template.php:17
+msgid "Change site Product template options"
+msgstr ""
+
+#: admin/theme-panel/template.php:21
+msgid "Photo Template"
+msgstr ""
+
+#: admin/theme-panel/template.php:24
+msgid "Change site Photo template options"
+msgstr ""
+
+#: admin/theme-panel/template.php:28
+msgid "Blog Template"
+msgstr ""
+
+#: admin/theme-panel/template.php:31
+msgid "Change site Blog template options"
+msgstr ""
+
+#: admin/theme-panel/template.php:41
+msgid "Featured Image Visibility"
+msgstr ""
+
+#: admin/theme-panel/template.php:54
+msgid "Featured Image Position"
+msgstr ""
+
+#: admin/theme-panel/template.php:67
+msgid "Product Header Content Position"
+msgstr ""
+
+#: admin/theme-panel/template.php:74 admin/theme-panel/template.php:369
+msgid "Center"
+msgstr ""
+
+#: admin/theme-panel/template.php:83
+msgid "Background"
+msgstr ""
+
+#: admin/theme-panel/template.php:92 admin/theme-panel/template.php:386
+msgid "Featured Image"
+msgstr ""
+
+#: admin/theme-panel/template.php:99
+msgid "Background Color"
+msgstr ""
+
+#: admin/theme-panel/template.php:100
+msgid "Change  Backgrounnd Color"
+msgstr ""
+
+#: admin/theme-panel/template.php:128
+msgid "Product gradient"
+msgstr ""
+
+#: admin/theme-panel/template.php:151
+msgid "Angle"
+msgstr ""
+
+#: admin/theme-panel/template.php:153
+msgid "135"
+msgstr ""
+
+#: admin/theme-panel/template.php:167
+msgid "Image Control (URL)"
+msgstr ""
+
+#: admin/theme-panel/template.php:168
+msgid "Description Here."
+msgstr ""
+
+#: admin/theme-panel/template.php:182 admin/theme-panel/template.php:478
+msgid "Blur Radius"
+msgstr ""
+
+#: admin/theme-panel/template.php:184 admin/theme-panel/template.php:480
+msgid "5px"
+msgstr ""
+
+#: admin/theme-panel/template.php:199 admin/theme-panel/template.php:495
+msgid "Overlay Color"
+msgstr ""
+
+#: admin/theme-panel/template.php:200 admin/theme-panel/template.php:496
+msgid "Change  Overlay Color"
+msgstr ""
+
+#: admin/theme-panel/template.php:220 admin/theme-panel/template.php:516
+msgid "Featured Image Parallax"
+msgstr ""
+
+#: admin/theme-panel/template.php:225 admin/theme-panel/template.php:521
+msgid "Yes"
+msgstr ""
+
+#: admin/theme-panel/template.php:226 admin/theme-panel/template.php:522
+msgid "No"
+msgstr ""
+
+#: admin/theme-panel/template.php:241
+msgid "Product Overlay Image"
+msgstr ""
+
+#: admin/theme-panel/template.php:242 admin/theme-panel/template.php:538
+msgid "Upload product background image"
+msgstr ""
+
+#: admin/theme-panel/template.php:250
+msgid "Product Content Layout Manager"
+msgstr ""
+
+#: admin/theme-panel/template.php:261 admin/theme-panel/template.php:556
+msgid "Title"
+msgstr ""
+
+#: admin/theme-panel/template.php:262 admin/theme-panel/template.php:557
+#: fes_templates/frontend-dashboard.php:20
+msgid "Author"
+msgstr ""
+
+#: admin/theme-panel/template.php:264 admin/theme-panel/template.php:559
+#: edd_templates/shortcode-receipt.php:63
+#: fes_templates/frontend-products.php:13
+msgid "Date"
+msgstr ""
+
+#: admin/theme-panel/template.php:265
+msgid "Action Button"
+msgstr ""
+
+#: admin/theme-panel/template.php:275
+msgid "Product Gallery Type"
+msgstr ""
+
+#: admin/theme-panel/template.php:280 admin/theme-panel/template.php:599
+msgid "Full Width"
+msgstr ""
+
+#: admin/theme-panel/template.php:281 admin/theme-panel/template.php:600
+msgid "With Sidebar"
+msgstr ""
+
+#: admin/theme-panel/template.php:288
+msgid "Product Top Social Share"
+msgstr ""
+
+#: admin/theme-panel/template.php:301
+msgid "Photo Template Bg Color"
+msgstr ""
+
+#: admin/theme-panel/template.php:302
+msgid "Change  Background Color"
+msgstr ""
+
+#: admin/theme-panel/template.php:324
+msgid "Photo Template Layout"
+msgstr ""
+
+#: admin/theme-panel/template.php:329
+msgid "Fixed"
+msgstr ""
+
+#: admin/theme-panel/template.php:330
+msgid "Flexible"
+msgstr ""
+
+#: admin/theme-panel/template.php:336
+msgid "Blog Featured Image Visibility"
+msgstr ""
+
+#: admin/theme-panel/template.php:349
+msgid "Blog Featured Image Position"
+msgstr ""
+
+#: admin/theme-panel/template.php:362
+msgid "Blog Header Content Position"
+msgstr ""
+
+#: admin/theme-panel/template.php:378
+msgid "Blog Breadcrumb Background Type"
+msgstr ""
+
+#: admin/theme-panel/template.php:393
+msgid "Breadcrumb Background Color"
+msgstr ""
+
+#: admin/theme-panel/template.php:394
+msgid "Set Breadcrumb Background color"
+msgstr ""
+
+#: admin/theme-panel/template.php:420
+msgid "Breadcrumb gradient"
+msgstr ""
+
+#: admin/theme-panel/template.php:442
+msgid "Breadcrumb Background Image"
+msgstr ""
+
+#: admin/theme-panel/template.php:443
+msgid "Upload Product/Blog background image"
+msgstr ""
+
+#: admin/theme-panel/template.php:458
+msgid "Image Repeat"
+msgstr ""
+
+#: admin/theme-panel/template.php:463
+msgid "Repeat"
+msgstr ""
+
+#: admin/theme-panel/template.php:464
+msgid "Cover"
+msgstr ""
+
+#: admin/theme-panel/template.php:537
+msgid "Blog Overlay Image"
+msgstr ""
+
+#: admin/theme-panel/template.php:546
+msgid "Blog Content Layout Manager"
+msgstr ""
+
+#: admin/theme-panel/template.php:567
+msgid "Blog Author Box In Single Post"
+msgstr ""
+
+#: admin/theme-panel/template.php:580
+msgid "Blog Sidebar Hide"
+msgstr ""
+
+#: admin/theme-panel/template.php:594
+msgid "Blog Comment"
+msgstr ""
+
+#: admin/theme-panel/typography.php:9
+msgid "Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:10
+msgid "mayosis Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:14 admin/theme-panel/typography.php:40
+msgid "Body Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:17
+msgid "Change site typogrpahy options"
+msgstr ""
+
+#: admin/theme-panel/typography.php:21
+msgid "Headings Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:24
+msgid "Change site headings typogrpahy options"
+msgstr ""
+
+#: admin/theme-panel/typography.php:28
+msgid "Menu Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:31
+msgid "Change site headings menu typogrpahy options"
+msgstr ""
+
+#: admin/theme-panel/typography.php:69
+msgid "Page Breadcrumb Title Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:98
+msgid "Product/Blog Breadcrumb Title Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:129
+msgid "H1 Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:158
+msgid "H2 Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:188
+msgid "H3 Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:218
+msgid "H4 Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:248
+msgid "H5 Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:277
+msgid "H6 Typography"
+msgstr ""
+
+#: admin/theme-panel/typography.php:306 functions.php:19
+msgid "Main Menu"
+msgstr ""
+
+#: admin/theme-panel/typography.php:333
+msgid "Sub Menu"
+msgstr ""
+
+#: admin/theme-panel/typography.php:362 functions.php:20
+msgid "Top Menu"
+msgstr ""
+
+#: admin/theme-panel/typography.php:390
+msgid "Top Sub Menu"
+msgstr ""
+
+#: admin/theme-panel/typography.php:418 functions.php:21
+msgid "Mobile Menu"
+msgstr ""
+
+#: admin/theme-panel/typography.php:446
+msgid "Mobile Sub Menu"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:9
+msgid "White Label"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:10
+msgid "White Label Logo & info"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:14
+msgid "Admin"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:17
+msgid "Change site admin white label logo info"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:27
+msgid "Admin Login Logo"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:28
+msgid "Recommanded Size 130 x 90px Maximum"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:36
+msgid "Admin gradient bg"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:52
+msgid "Login Button Color"
+msgstr ""
+
+#: admin/theme-panel/white-label.php:53
+msgid "Main Admin Login Button Color"
+msgstr ""
+
+#: archive.php:42 content/content-author-download.php:75
+msgid "All Products From"
+msgstr ""
+
+#: author-list.php:66 author-list.php:119
+msgid "Our authors who contributed useful articles for you!"
+msgstr ""
+
+#: author-list.php:93 author-list.php:146 author.php:34
+msgid "Articles"
+msgstr ""
+
+#: author.php:37 content/content-author-download.php:26
+msgid "Network"
+msgstr ""
+
+#: author.php:75
+msgid "Author&#39;s Biography"
+msgstr ""
+
+#: comments.php:30 comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:31 comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:65
+msgid "Share Your Valuable Opinions"
+msgstr ""
+
+#: comments.php:66
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:67
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:68
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:69
+msgid "Write Your Comment...."
+msgstr ""
+
+#: comments.php:70
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:75 edd_templates/shortcode-receipt.php:127
+#: fes_templates/frontend-products.php:9
+msgid "Name"
+msgstr ""
+
+#: comments.php:77 comments.php:97
+msgid "Email"
+msgstr ""
+
+#: comments.php:79
+msgid "Website (optional)"
+msgstr ""
+
+#: comments.php:82
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:91 comments.php:93
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:99
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:104
+msgid "Write a Comment"
+msgstr ""
+
+#: comments.php:105
+msgid "Website"
+msgstr ""
+
+#: comments.php:110
+msgid "Let us know what you have to say:"
+msgstr ""
+
+#: comments.php:111
+msgid ""
+"Express your thoughts, idea or write a feedback by clicking here & start an "
+"awesome comment"
+msgstr ""
+
+#: comments.php:114
+msgid "Please Post Your Comments & Reviews"
+msgstr ""
+
+#: comments.php:123
+msgid "Comments are closed."
+msgstr ""
+
+#: content/content-404-footer.php:13 content/content-post-footer.php:75
+msgid "Popular Blog Post"
+msgstr ""
+
+#: content/content-404-footer.php:23 content/content-product-footer.php:75
+msgid "Popular &amp; Trending "
+msgstr ""
+
+#: content/content-404-footer.php:29 content/content-product-footer.php:81
+msgid "Featured Products "
+msgstr ""
+
+#: content/content-404-footer.php:86 content/content-photo-download.php:140
+#: content/content-post-footer.php:138 content/content-product-footer.php:65
+#: content/content-product-footer.php:124
+msgid "No posts were found."
+msgstr ""
+
+#: content/content-archive-post-full.php:19 content/content-search-post.php:14
+msgid "View Post"
+msgstr ""
+
+#: content/content-archive-post-grid.php:39 includes/blog_content_author.php:3
+#: includes/product-meta.php:56 includes/product_content_author.php:3
+msgid "by"
+msgstr ""
+
+#: content/content-archive-post-grid.php:41
+#: content/content-photo-download.php:51 includes/blog_content_category.php:8
+#: includes/product-meta.php:58 includes/product_content_category.php:7
+msgid "in"
+msgstr ""
+
+#: content/content-author-blog.php:24 content/content.php:33 index.php:38
+msgid "Showing"
+msgstr ""
+
+#: content/content-author-blog.php:24 content/content.php:33 index.php:38
+msgid "of"
+msgstr ""
+
+#: content/content-author-blog.php:24 content/content.php:33 index.php:38
+msgid "Blog Posts"
+msgstr ""
+
+#: content/content-author-download.php:64
+msgid "Vendor&#39;s Biography"
+msgstr ""
+
+#: content/content-author-download.php:109 content/content-product-grid.php:20
+#: content/content-search.php:21 edd_templates/shortcode-download.php:28
+msgid "New"
+msgstr ""
+
+#: content/content-author-download.php:125 content/content-product-grid.php:36
+#: content/content-search.php:37 edd_templates/shortcode-content-image.php:15
+msgid "View Details"
+msgstr ""
+
+#: content/content-author-download.php:130 content/content-product-grid.php:41
+#: content/content-search.php:42 edd_templates/shortcode-content-image.php:20
+msgid "Live Demo"
+msgstr ""
+
+#: content/content-download-archive.php:35
+msgid "Free"
+msgstr ""
+
+#: content/content-download.php:37 content/content-full-download.php:38
+#: content/content-narrow-template.php:38
+msgid "Choose Your Desired Option(s)"
+msgstr ""
+
+#: content/content-none-category.php:10 content/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: content/content-none-category.php:14
+msgid "This Category is empty"
+msgstr ""
+
+#: content/content-none-category.php:19
+msgid "Please add some products on it !"
+msgstr ""
+
+#: content/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content/content-photo-download.php:13 includes/product-meta.php:48
+#: includes/product_content_category.php:3
+msgctxt ""
+msgid " , "
+msgstr ""
+
+#: content/content-photo-download.php:52 includes/blog_content_date.php:1
+#: includes/product_content_date.php:4
+msgid "on"
+msgstr ""
+
+#: content/content-photo-download.php:75
+msgid "Photography By"
+msgstr ""
+
+#: content/content-photo-download.php:79
+msgid "View Portfolio"
+msgstr ""
+
+#: content/content-photo-download.php:106
+msgid "Similar Images"
+msgstr ""
+
+#: content/content-photo-download.php:147
+msgid "Keywords"
+msgstr ""
+
+#: content/content-post-footer.php:13
+msgid "Related Blog Post"
+msgstr ""
+
+#: content/content-post-footer.php:86
+msgid "Featured Products"
+msgstr ""
+
+#: content/content-product-footer.php:13
+msgid "Related Products"
+msgstr ""
+
+#: content/content-single.php:40
+msgid "Categories:"
+msgstr ""
+
+#: content/content-single.php:61 page.php:82
+msgid "Pages:"
+msgstr ""
+
+#: content/content-single.php:67
+msgid "Next page"
+msgstr ""
+
+#: content/content-single.php:68
+msgid "Previous page"
+msgstr ""
+
+#: edd_templates/shortcode-login.php:24
+msgid "Remember Me"
+msgstr ""
+
+#: edd_templates/shortcode-login.php:28
+msgid "Lost Password?"
+msgstr ""
+
+#: edd_templates/shortcode-login.php:45
+msgid "You are already logged in"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:18
+msgid "Saved cart"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:18
+#, php-format
+msgid "You have a saved cart, <a href=\"%s\">click here</a> to restore it."
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:22
+msgid "Success"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:22
+msgid "Your profile has been edited successfully."
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:35
+msgid "Change your Name"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:39
+msgid "First Name"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:43
+msgid "Last Name"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:49
+msgid "Display Name"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:69
+msgid "Primary Email Address"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:107
+msgid "Additional Email Addresses"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:126
+msgid "Remove"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:146
+msgid "Change your Billing Address"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:150
+msgid "Line 1"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:154
+msgid "Line 2"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:159
+msgid "City"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:165
+msgid "Zip / Postal Code"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:169
+msgid "Country"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:177
+msgid "State / Province"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:198
+msgid "Change your Password"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:202
+msgid "New Password"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:208
+msgid "Re-enter Password"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:222
+msgid "Save Changes"
+msgstr ""
+
+#: edd_templates/shortcode-profile-editor.php:235
+msgid "You need to login to edit your profile."
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:12
+msgid "The specified receipt ID appears to be invalid"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:27
+msgid "Payment Information"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:35
+msgid "Payment"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:44
+msgid "Payment Status"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:50
+msgid "Payment Key"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:57
+msgid "Payment Method"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:70
+msgid "Fees"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:87
+msgid "Discount(s)"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:94
+msgid "Tax"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:102
+msgid "Subtotal"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:109
+msgid "Total Price"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:123
+msgid "Products Bought"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:129
+msgid "SKU"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:132
+msgid "Quantity"
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:201
+msgid "No downloadable files found for this bundled item."
+msgstr ""
+
+#: edd_templates/shortcode-receipt.php:210
+msgid "No downloadable files found."
+msgstr ""
+
+#: edd_templates/shortcode-register.php:43
+msgid "Register"
+msgstr ""
+
+#: fes_templates/frontend-dashboard.php:21
+msgid "Comment"
+msgstr ""
+
+#: fes_templates/frontend-products.php:11
+msgid "Purchases"
+msgstr ""
+
+#: fes_templates/frontend-products.php:12
+msgid "Actions"
+msgstr ""
+
+#: fes_templates/frontend-products.php:34
+#, php-format
+msgctxt "FES lowercase plural setting for download"
+msgid "No %s found"
+msgstr ""
+
+#: footer.php:40
+msgid "&copy; Allright Reserved 2018"
+msgstr ""
+
+#: functions.php:270
+msgid "All"
+msgstr ""
+
+#: includes/cart-header-main.php:28
+msgid "Items"
+msgstr ""
+
+#: includes/product-bottom-buttons.php:20
+#: includes/product_content_button.php:22
+msgid "Purchase"
+msgstr ""
+
+#: includes/product-bottom-buttons.php:32
+msgid "Downloads"
+msgstr ""
+
+#: includes/product-bottom-buttons.php:34
+msgid "Sales"
+msgstr ""
+
+#: includes/product-bottom-buttons.php:63
+msgid "Share Now! "
+msgstr ""
+
+#: includes/product-hover-content-bottom.php:14
+#: includes/product-hover-content-top.php:14
+msgid "Add to cart"
+msgstr ""
+
+#: includes/product-hover-content-bottom.php:26
+#: includes/product-hover-content-top.php:26
+msgid "Add To Cart"
+msgstr ""
+
+#: includes/sidemenu-collapsed-search.php:10
+#: searchform-download-sidebar-header.php:16
+#: searchform-download-style-two.php:17 searchform-download.php:14
+#: searchform-download.php:27 searchform-download.php:45
+msgid "Type and Hit Enter"
+msgstr ""
+
+#: includes/single-product-full-layout.php:22
+#: includes/single-product-layout.php:34
+msgid "Tags:"
+msgstr ""
+
+#: index.php:23
+msgid "Blog"
+msgstr ""
+
+#: library/breadcrumb.php:30
+msgid "Our Blog"
+msgstr ""
+
+#: library/breadcrumb.php:31 library/breadcrumb.php:33
+msgid "Home"
+msgstr ""
+
+#: library/breadcrumb.php:71
+msgid "<span class=\"active\">Category ></span> "
+msgstr ""
+
+#: library/breadcrumb.php:73
+msgid "Tag: "
+msgstr ""
+
+#: library/breadcrumb.php:86
+msgid "Error 404"
+msgstr ""
+
+#: library/mayosis_comment.php:11
+msgid "Pingback:"
+msgstr ""
+
+#: library/mayosis_comment.php:26
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr ""
+
+#: library/mayosis_comment.php:27
+msgid "at"
+msgstr ""
+
+#: library/mayosis_comment.php:32
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/mayosis_comment.php:37
+msgid "Reply"
+msgstr ""
+
+#: library/widget.php:9
+msgid "Sidebar"
+msgstr ""
+
+#: library/widget.php:11
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: library/widget.php:23
+msgid "Page Sidebar"
+msgstr ""
+
+#: library/widget.php:24
+msgid "Main Pages Sidebar."
+msgstr ""
+
+#: library/widget.php:36
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: library/widget.php:37
+msgid "This is For Single Post Sidebar"
+msgstr ""
+
+#: library/widget.php:50
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: library/widget.php:51
+msgid "This is For Single Product Sidebar"
+msgstr ""
+
+#: library/widget.php:63
+msgid "This is For Hamburger Sidebar"
+msgstr ""
+
+#: page.php:86
+msgid "Page"
+msgstr ""
+
+#: search-download.php:11 search.php:16
+msgid "Search Result"
+msgstr ""
+
+#: search.php:18
+msgid "Search Results for"
+msgstr ""
+
+#: sitemap.php:53
+msgid "Pages"
+msgstr ""
+
+#: sitemap.php:72
+msgid "Posts By Blog Category"
+msgstr ""
+
+#: sitemap.php:73
+msgid "Category:"
+msgstr ""
+
+#: sitemap.php:92
+msgid "Products"
+msgstr ""
+
+#: sitemap.php:106
+msgid "Products Categories"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Mayosis"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://teconce.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Wordpress Theme With Easy Digital Download & Awesome Options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sk Nazmus Shadhat"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://teconce.com/contact/"
+msgstr ""
