@@ -64,7 +64,6 @@
     font-weight: 600;
     margin: 1px 0 0 2px;
     vertical-align: top;
-    -webkit-border-radius: 10px;
     border-radius: 10px;
     z-index: 26;
 }
@@ -88,9 +87,31 @@
 .list-repeatable  .widget-top:after {
     clear: both; display: block; content: " ";
 }
-
-.list-repeatable .explained .widget-title-action .widget-action::after{
+.list-repeatable  .widget-title-action .widget-action {
+    text-decoration: none;
+    height: 23px;
+    display: block;
+}
+.list-repeatable .widget-top {
+    position: relative;
+}
+.list-repeatable .widget-title-action {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+        -ms-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+}
+.list-repeatable .widget-title-action .widget-action::after{
     content: "\f142";
+    font-family: "dashicons";
+    font-size: 18px;
+}
+.list-repeatable .explained .widget-title-action .widget-action::after{
+    content: "\f140";
 }
 .list-repeatable .widget .widget-inside{
     display: none;
@@ -180,6 +201,7 @@ body .wp-full-overlay{
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
     color: #32373c;
     outline: 0 none;
+    -webkit-transition: border-color 50ms ease-in-out 0s;
     transition: border-color 50ms ease-in-out 0s;
     min-height: 150px;
     display: block;
@@ -319,7 +341,6 @@ body .wp-full-overlay{
 }
 
 .alpha-color-picker-wrap a.iris-square-value:focus {
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -343,8 +364,6 @@ body .wp-full-overlay{
     z-index: 2;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     border: 1px solid #aaa;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     margin-top: -2px;
     top: 0;
@@ -380,8 +399,6 @@ body .wp-full-overlay{
     background-color: #FFF;
     background-image: url(../images/transparency-grid.png);
     box-shadow: 0 0 5px rgba(0,0,0,0.4) inset;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     padding: 0;
     margin-top: -24px;

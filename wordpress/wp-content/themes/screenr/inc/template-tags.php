@@ -7,6 +7,36 @@
  * @package Screenr
  */
 
+/**
+ * Display Brand
+ */
+function screenr_branding(){
+    ?>
+    <div class="site-branding">
+        <?php
+        if ( function_exists( 'has_custom_logo' ) && has_custom_logo() ) {
+            the_custom_logo();
+        }
+        if ( ! get_theme_mod( 'screenr_hide_sitetitle', 1 )  || is_customize_preview() || ! has_custom_logo() ) {
+            if (is_front_page() && !is_home()) : ?>
+                <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+            <?php else : ?>
+                <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
+                <?php
+            endif;
+        }
+        if ( ! get_theme_mod( 'screenr_hide_tagline', 1 )  || is_customize_preview() ) {
+            $description = get_bloginfo('description', 'display');
+            if ($description || is_customize_preview()) : ?>
+                <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+                <?php
+            endif;
+        }
+        ?>
+    </div><!-- .site-branding -->
+    <?php
+}
+
 if ( ! function_exists( 'screenr_is_selective_refresh' ) ) {
 	function screenr_is_selective_refresh()
 	{
@@ -230,6 +260,7 @@ if ( ! function_exists( 'screenr_ajax_load_more_posts' ) ) {
 			'posts_per_page' => absint(get_theme_mod('news_num_post', 3)),
 			'ignore_sticky_posts' => true,
 			'paged' => $paged,
+			'post_status' => 'publish'
 		));
 
 		$layout = absint(get_theme_mod('news_layout', 3));
@@ -532,5 +563,22 @@ function screenr_gallery_generate( $echo = true ){
 		return $div;
 	}
 
+}
+
+
+
+if ( function_exists( 'wp_update_custom_css_post' ) ) {
+    // Migrate any existing theme CSS to the core option added in WordPress 4.7.
+    $css = get_option( 'screenr_custom_css' );
+    if ( $css ) {
+        $core_css = wp_get_custom_css(); // Preserve any CSS already added to the core option.
+        $return = wp_update_custom_css_post( $core_css ."\n". $css );
+        if ( ! is_wp_error( $return ) ) {
+            // Remove the old theme_mod, so that the CSS is stored in only one place moving forward.
+            delete_option( 'screenr_custom_css' );
+        }
+    }
+} else {
+    // Back-compat for WordPress < 4.7.
 }
 

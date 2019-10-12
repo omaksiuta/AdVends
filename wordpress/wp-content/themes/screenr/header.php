@@ -37,23 +37,7 @@
     ?>
 	<header id="masthead" class="<?php echo esc_attr( join( ' ', $header_classes ) );?>" role="banner">
 		<div class="container">
-			<div class="site-branding">
-				<?php
-				if ( function_exists( 'the_custom_logo' ) ) {
-					the_custom_logo();
-				}
-				if ( is_front_page() && ! is_home() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-					<?php
-				endif;
-				$description = get_bloginfo( 'description', 'display' );
-				if ( $description || is_customize_preview() ) : ?>
-					<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-					<?php
-				endif; ?>
-			</div><!-- .site-branding -->
+			<?php screenr_branding(); ?>
 
 			<div class="header-right-wrapper">
 				<a href="#" id="nav-toggle"><?php esc_html_e('Menu', 'screenr'); ?><span></span></a>
