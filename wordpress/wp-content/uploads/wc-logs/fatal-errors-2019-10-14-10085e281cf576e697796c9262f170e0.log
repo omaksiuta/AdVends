@@ -1,0 +1,6 @@
+2019-10-14T19:05:51+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress 3/wp-includes/class-wp-image-editor-gd.php on line 189
+
+2019-10-14T19:12:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress 3/wp-includes/Requests/Transport/cURL.php on line 463
+
+2019-10-14T19:21:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-includes/class-wp-image-editor-gd.php on line 189
+
