@@ -32,22 +32,14 @@
 
 /* Search
 ------------------------------*/
-.search-form{
-	display: flex;
-	width: 100%;
-	align-items: center;
+.sidebar .widget .search-form{
 	.search-field {
 		width: 100% !important;
 		@include rem('padding', 10px 15px);
 	}
 	.search-submit {
-		width: auto;
-		margin: 0px 0 0 0.5em;
-		height: 100%;
-	}
-	label {
-		flex-grow: 2;
-		margin: 0px;
+		padding: 12px 23px 12px;
+		width: 93%;
 	}
 }
 
@@ -103,9 +95,4 @@
 		padding: 10px 0px 10px 0px;
 		border-bottom: 1px solid $border;
 	}
-}
-
-.sidebar .widget_calendar a {
-	color: #03c4eb;
-	text-decoration: underline;
 }

@@ -297,7 +297,7 @@ table > tfoot > tr > td {
     line-height: 1.42857;
    	padding: 5px;
     vertical-align: middle;
-    //text-align: center;
+    text-align: center;
 }
 
 table > thead > tr > th, table > thead > tr > td {
@@ -318,9 +318,7 @@ fieldset{
 	border: 1px solid $border;
 }
 
-input[type="reset"],input[type="submit"],input[type="submit"],
-/* 3rd plugins support */
-.pirate-forms-submit-button,  .contact-form div.wpforms-container-full .wpforms-form .wpforms-submit {
+input[type="reset"],input[type="submit"],input[type="submit"] {
 
 	cursor: pointer;
 	background: $primary;
@@ -340,8 +338,6 @@ input[type="reset"],input[type="submit"],input[type="submit"],
 	font-size: 13px;
 	&:hover {
 		opacity: 0.8;
-        background: $primary;
-		border: none;
 	}
 
 }
@@ -364,7 +360,7 @@ select {
 	padding: $base/2;
 }
 
-textarea:not(.editor-post-title__input),
+textarea,
 input[type="date"],
 input[type="datetime"],
 input[type="datetime-local"],
@@ -526,9 +522,4 @@ input[type="radio"],input[type="checkbox"] {
 .break {
     word-break: break-word;
     word-wrap: break-word;
-}
-
-body.mce-content-body{
-	margin: 20px 40px;
-	font-size: 13px;
 }

@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+body {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.category-card {
+    display: inline-block;
+    background-color: #fff17c;
+    /* width: 200px; */
+    height: 300px;
+    width: 200px;
+    border: 5px solid #33645d;
+    /* margin: 0 auto; */
+    text-align: center;
+    color: green;
+    font-family: 'Chelsea Market', Georgia, serif;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.category-card-img-icon {
+    height: 50px;
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.category-card-text-and-count {
+    display: inline;
+    font-size: 250%;
+    /* background-color: #f8fff6; */
+    min-height: 75px;
+    /* min-width: 280px; */
+    max-height: 150px;
+    /* max-width: 360px; */
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    font-family: 'Chelsea Market', Georgia, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.category-card-body {
+    display: inline;
+    font-size: 250%;
+    /* background-color: #f8fff6; */
+    min-height: 75px;
+    /* min-width: 280px; */
+    max-height: 150px;
+    /* max-width: 360px; */
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    font-family: 'Chelsea Market', Georgia, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.category-item-card {
+    display: inline-block;
+    background-color: #fffbf7;
+
+    /*width: 200px;*/
+    min-height: 360px;
+    min-width: 360px;
+    max-height: 640px;
+    max-width: 640px;
+    border: 5px solid #33645d;
+    /*margin: 0 auto;*/
+    text-align: center;
+    color: green;
+    font-family: 'Chelsea Market', Georgia, serif;
+
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.category-item-card-header {
+    display: inline;
+    font-size: 250%;
+    /* background-color: #f8fff6; */
+    min-height: 75px;
+    /* min-width: 280px; */
+    max-height: 150px;
+    /* max-width: 360px; */
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    font-family: 'Chelsea Market', Georgia, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.category-item-card-body {
+    display: inline;
+    font-size: 250%;
+    /* background-color: #f8fff6; */
+    min-height: 75px;
+    /* min-width: 280px; */
+    max-height: 150px;
+    /* max-width: 360px; */
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    font-family: 'Chelsea Market', Georgia, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.category-item-card-img {
+    height: 300px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.category-item-card-img-icon {
+    height: 50px;
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+/*https://codyhouse.co/category/ux-patterns/*/
+/*https://codegeekz.com/free-jquery-shopping-cart-plugins/*/
+/*https://codyhouse.co/demo/add-to-cart-interaction/index.html#0*/

@@ -1,6 +1,6 @@
 <?php
 /**
- * The header for the OnePress theme.
+ * The header for our theme.
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
@@ -15,16 +15,19 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<?php do_action( 'onepress_before_site_start' ); ?>
+<?php do_action( 'onepress_before_site_star' ); ?>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'onepress' ); ?></a>
     <?php
     /**
-     * @since 2.0.0
+     * Hooked: onepress_site_header
+     *
+     * @see onepress_site_header
      */
-    onepress_header();
+    do_action( 'onepress_site_start' );
     ?>

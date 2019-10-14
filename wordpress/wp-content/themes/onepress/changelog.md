@@ -1,236 +1,6 @@
-# CHANGELOG
-
-# 2.2.4
-* NEW: Support Yoast SEO breadcrumb.
-* NEW: Support qTranslate-x in page header cover description.
-* NEW: Support emojis in Customizer content.
-* IMPROVED: Change link guide to create MailChimp URL.
-* FIXED: Yoast SEO metabox display.
-* FIXED: Visual Editor error.
-
-# 2.2.3
-* FIXED: Menu mobile not display.
-
-# 2.2.2
-* FIXED: Javascript error when hide the header on the homepage.
-* FIXED: Slider not displaying good in IE 11.
-* FIXED: Menu burger on mobile view not working in IE11/Egde.
-
-
-# 2.2.1
-* NEW: Add option to hide the post thumbnail if not exist.
-* NEW: Add option to enable/disable gallery image link.
-* NEW: Add option to change feature icon hover color.
-* NEW: Add the title for feature item's link.
-* IMPROVED: Improve mobile navigation menu.
-* IMPROVED: Set widh for single post only.
-* IMPROVED: Improve search form styling.
-* IMPROVED: Improve posts navigation styling.
-* IMPROVED: Improve mobile navigation menu.
-* IMPROVED: Improve PHP 7+ Compatibility.
-* IMPROVED: Improve single post content max width.
-* IMPROVED: Improve the page titlebar background option.
-* FIXED: Gutenberg - Gallery.
-* FIXED: Dots navigation working incorrect when language is not EN.
-
-
-# 2.2.0
-* NEW: Front page sections manager.
-* NEW: Support WPForm plugin.
-* NEW: Support Gutenberg.
-* NEW: Sections navigation label color settings.
-* NEW: Support inverse dots color even section not enable.
-* FIXED: Remove deprecated jQuery function #319.
-* IMPROVED: Theme customize api.
-* IMPROVED: Misc control issue.
-* IMPROVED: Theme style.
-
-# 2.1.0
-* NEW: Sections navigation.
-* NEW: Disable disable archive prefix option. See in Customizer -> Theme Options -> Blog Pots.
-* NEW: Item content source for Service section.
-* NEW: Hide post categories of News section. See in Customizer -> Section News.
-* NEW: Custom excerpt length. See in Customizer -> Section News.
-* IMPROVED: Improved More Posts button link in News section. 
-* IMPROVED: Improved More Posts button link in News section. 
-* IMPROVED: Re-Structure customize configs.
-* IMPROVED: Re-Structure customize controls.
-
-
-# 2.0.9
-* IMPROVED: Add alt title for gallery images.
-* FIXED: Issue hero image resize not properly.
-* FIXED: Parallax does not rescale image anymore.
-
-# 2.0.8
-* NEW: Setting height for transparent logo.
-* IMPROVED: Small strings corrections.
-* FIXED: Include hero animation in global animation setting.
-* FIXED: Remove duplicate single post thumbnail setting.
-
-# 2.0.7
-* NEW: Add hero button target.
-* FIXED: Duplicate title on single post.
-* FIXED: Duplicate title on product archive.
-* FIXED: Contact form issue.
-
-
-## 2.0.6
-* FIXED: JS error issue.
-
-## 2.0.5
-* NEW: Support PirateForms.
-* IMPROVED: Header cover on single product.
-* IMPROVED: WooCommerce header title.
-* IMPROVED: Add hook for section parts.
-* FIXED: Title on single post & WooCommerce category.
-* FIXED: Section background parallax effect.
-* FIXED: Parallax issue.
-* FIXED: Back to top button z-index.
-
-## 2.0.4
-* REMOVED: Remove debug test.
-
-## 2.0.3
-* UPDATED: update counter js library to version 2.1.0.
-* IMPROVED: String translation texts.
-* IMPROVED: Section about.
-* IMPROVED: Section services, show section title + description in case without service items.
-* IMPROVED: Customize control JS.
-* FIXED: Page setting does not work on Shop page.
-* FIXED: Jetpack's CDN for all images compatible.
-* FIXED: Hero parallax issue.
-* FIXED: Site title & tagline color.
-
-## 2.0.2
-* NEW: Option to enable page header cover.
-* NEW: Option to display page excerpt as header cover description.
-* FIXED: Page header cover issue, hide by default.
-* REMOVED: Page header excerpt.
-* IMPROVED: Customize control JS.
-
-## 2.0.1
-* NEW: Add an option to hide breadcrumb on page.
-* FIXED: Hero background overlay.
-* FIXED: Permalink issue for service items.
-* FIXED: Update header transparent color.
-* FIXED: Site identity colors.
-* FIXED: Page title when header is transparent issue.
-
-## 2.0.0
-* NEW: Non-minified js files.
-* NEW: Footer widgets section.
-* NEW: Rel attribute for author tag.
-* NEW: Compare table.
-* NEW: Show/hide page title bar.
-* NEW: Disable Hero preload icon setting.
-* NEW: About layout columns.
-* NEW: Service icon size settings.
-* NEW: Support retina & transparent logo.
-* NEW: Support transparent site title and tagline text colors.
-* NEW: Category selection in News section.
-* NEW: Page settings.
-* NEW: Footer social text color settings.
-* NEW: Footer copyright text color settings.
-* NEW: Header Layout: Full Width or Contained.
-* NEW: Menu position: above or below the Hero section.
-* NEW: Menu item padding.
-* NEW: Footer copyright link colors.
-* NEW: Hero rotating text and background color for layout 1.
-* NEW: Add an option to disable default google theme in theme.
-* NEW: Add page header cover.
-* IMPROVED: Testimonials default color.
-* IMPROVED: Latest bootstrap - v4.0.0-alpha.6.
-* IMPROVED: Carousel and RTL.
-* IMPROVED: Change Actions Required text to Recommended Actions.
-* IMPROVED: Move the Footer Social & Newsletter section to Footer Socials.
-* IMPROVED: Upsell content.
-* FIX: Hero fullscreen issue.
-* FIX: Section full width z index.
-* FIX: Theme Check Sniffs.
-* FIX: Div class fit-vids-style inserted into head.
-* FIX: Gallery issue.
-* FIX: Escaping missing in several other places.
-* REMOVED: wp_reset_query.
-* REMOVED: Core settings is not allowed
-
-
-## 1.4.4
-* Fix hero fullscreen issue.
-
-## 1.4.3
-* Fix header issue.
-
-## 1.4.2
-* Improve front page sections.
-* Fix an issue incorrect section position for first menu item is clicked.
-* Improve nav menu.
-* Add single post options.
-* Add filter for section container class.
-
-## 1.4.1
-* Fix js error.
-
-## 1.4.0
-* Update JS, fix footer issue.
-
-## 1.3.9
-* Update Customizer style.
-* Update nav bar, hero background.
-* Update sanitize email.
-* Update parallax for tablet.
-* Fixed hero layout 2 issue.
-* Fixed WC login & register page layout.
-
-
-## 1.3.8
-* Update WooCommerce layout.
-
-## 1.3.7
-* Fix safari menu issue.
-* Improve editor customizer.
-* Run shortcode in hero content.
-* Improve parallax when small padding.
-* Update Bootstrap.
-* Clean up js fix conflict plugin.
-* HTML format for contact text.
-* Do not effect custom content by plugins, change `the_content` to `onepress_the_content`
-
-
-## 1.3.6
-* Improve parallax.
-* Fix WooCommerce issues.
-* Fix a bug load css.map files.
-
-
-## 1.3.5
-* Update responsive parallax.
-* Update menu toggle button.
-* Fix Header transparent.
-* Update menu items selection.
-
-## 1.3.4
-* Update parallax.
-* Fix issue sometime video lightbox not show.
-
-## 1.3.3
-* Fix translation function that is missing a text-domain
-* Correct the one text domain is being used.
-
-## 1.3.2
-* Fix js syntax.
-* Update parallax hero.
-
-## 1.3.1
-* Fix social icons.
-* Make contact form label full width.
-* Update images size for gallery masonry and justified.
-* New slider speed option, move hero settings to hero sections.
-* Update parallax version.
-* Add custom section padding in Customizer.
-* Change hero loading icon.
-* Remove Magnific-Popup, update lightbox video.
-
+====================================================================
+CHANGELOG
+=========
 ## 1.3.0
 * WP 4.7 compatible.
 * Support WP 4.7 customizer shortcut.
@@ -247,6 +17,7 @@
 * Add copy theme mod function.
 * Add option to select site layout.
 * Improve gallery and add view more button.
+
 
 ## 1.2.8
 * Add sidebar for WooCommerce plugins.
@@ -272,6 +43,7 @@
 * Update WPML config.
 * Update translate file.
 
+
 ## 1.2.5
 * Update FontAwesome to latest version.
 * Remove logo 1.2.0 fallback.
@@ -283,6 +55,7 @@
 * Speedup customizer.
 * Home logo click to scroll to top without reload page.
 * Add demo import content tab.
+
 
 ## 1.2.4
 * Fix issue can click to nav link.
