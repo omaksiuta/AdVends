@@ -1,0 +1,96 @@
+2019-10-15T20:15:56+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:21:07+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:21:24+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:23:40+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:26:55+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:27:53+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:28:10+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:28:19+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:28:22+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 71
+
+2019-10-15T20:31:51+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:31:56+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:32:03+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:32:21+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:33:13+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:33:22+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:33:39+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:34:27+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:34:36+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:35:05+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:36:02+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:36:07+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 31
+
+2019-10-15T20:45:29+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 34
+
+2019-10-15T20:45:34+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 34
+
+2019-10-15T20:45:34+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 34
+
+2019-10-15T20:45:46+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 30
+
+2019-10-15T20:45:51+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 30
+
+2019-10-15T20:45:55+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 30
+
+2019-10-15T20:46:56+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 41
+
+2019-10-15T20:47:04+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 40
+
+2019-10-15T20:47:18+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 40
+
+2019-10-15T20:47:26+00:00 CRITICAL require(): Failed opening required 'db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 39
+
+2019-10-15T20:48:47+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 34
+
+2019-10-15T20:54:11+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 35
+
+2019-10-15T20:54:33+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 35
+
+2019-10-15T20:54:36+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 35
+
+2019-10-15T20:55:53+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 35
+
+2019-10-15T20:55:55+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 35
+
+2019-10-15T20:57:46+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 39
+
+2019-10-15T20:59:01+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 40
+
+2019-10-15T20:59:20+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 40
+
+2019-10-15T20:59:30+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 40
+
+2019-10-15T20:59:40+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 40
+
+2019-10-15T21:06:01+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 32
+
+2019-10-15T21:06:16+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 41
+
+2019-10-15T21:06:18+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 41
+
+2019-10-15T21:12:47+00:00 CRITICAL syntax error, unexpected end of file in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 94
+
+2019-10-15T21:12:59+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 32
+
+2019-10-15T21:13:01+00:00 CRITICAL require(): Failed opening required '../constructor-configurations/db_config.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/themes/onepress/constructor-pages/db_admin_ingredients.php on line 32
+

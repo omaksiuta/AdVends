@@ -27,15 +27,15 @@ get_header(); ?>
         </tr>
     <!---->
     <!--        <tbody class="row_position">-->
-    <!--        --><?php
-    //
-    //        require('../constructor-configurations/db_config.php');
-    //        ?>
-    <!---->
-    <!--        --><?php
-    //        $sql = "SELECT * FROM sorting_items ORDER BY position_order";
-    //        $users = $mysqli->query($sql);
-    //        ?>
+            <?php
+
+            require('../constructor-configurations/db_config.php');
+            ?>
+
+            <?php
+            $sql = "SELECT * FROM sorting_items ORDER BY position_order";
+            $users = $mysqli->query($sql);
+            ?>
     <!---->
     <!--        --><?php
     //        while ($user = $users->fetch_assoc()) {

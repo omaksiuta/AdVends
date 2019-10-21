@@ -14,6 +14,3 @@ foreach ($position as $k => $v) {
 
     $i++;
 }
-
-
-?>
