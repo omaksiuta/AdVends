@@ -1,0 +1,302 @@
+/* ==================== ##General Styles ==================== */
+
+body {
+	font-family: $content_font_family;
+	font-size: $content_font_size;
+	line-height: $content_line_height;
+	font-weight: $content_font_weight;
+	color: $content_color;
+}
+
+/* ==================== ##End General Styles ==================== */
+
+/* ==================== ##Content Features ==================== */
+
+#comments .commentlist .comment_info .meta-wrapper *,
+.author-info_name,
+blockquote cite,
+.blog-post_info-wrap > .meta-wrapper *,
+.integrio_module_time_line_vertical .time_line-title,
+.isotope-filter a .number_filter,
+.integrio-post-navigation .meta-wrapper span,
+.author-widget_text,
+body .comment-form-cookies-consent > label {
+	font-family: $content_font_family;
+}
+
+select,
+blockquote cite,
+body .footer .select__field:before,
+body input:not([type='checkbox']):not([type='submit'])::placeholder,
+ul.wgl-pagination li span,
+select::placeholder,
+textarea::placeholder,
+.integrio_module_message_box .message_content .message_text,
+.vc_wp_custommenu .menu .menu-item.current-menu-item > a,
+.blog-post.format-quote .blog-post_quote-author-pos,
+.integrio_module_testimonials .testimonials_quote,
+.recent-posts-widget .meta-wrapper a:hover,
+.vc_row .vc_toggle .vc_toggle_icon,
+.tagcloud a,
+.isotope-filter a,
+.integrio_module_pricing_plan .pricing_price_wrap .pricing_desc {
+	color: $content_color;
+}
+
+.integrio_module_title .external_link .button-read-more {
+	line-height: $content_line_height;
+}
+
+/* ==================== ##End Content Features ==================== */
+
+/* ==================== ##Heading Features ==================== */
+
+h1,h2,h3,h4,h5,h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.blog-post_cats,
+.column1 .item_title a,
+.integrio_twitter .twitt_title,
+.tagcloud-wrapper .title_tags,
+.strip_template .strip-item a span,
+.single_team_page .team-single_speaches-info .speech-info_desc span,
+.shortcode_tab_item_title,
+.index_number,
+.primary-nav.footer-menu .menu-item a {
+	font-family: $header_font_family;
+	font-weight: $header_font_weight;
+}
+
+#comments .comment-reply-link,
+#comments .commentlist .comment_author_says,
+input[type="submit"], button,
+body .widget,
+body .widget .widget-title,
+body .widget_rss ul li .rss-date,
+body .widget .widget-title .widget-title_wrapper:before,
+body .widget_categories a, 
+body .widget_product_categories a, 
+body .widget_meta a, 
+body .widget_archive a,
+body .widget_categories .post_count, 
+body .widget_product_categories .post_count, 
+body .widget_meta .post_count, 
+body .widget_archive .post_count,
+label,
+legend,
+.wgl-social-share_pages.hovered_style .share_social-title,
+.blog-post_text-bg,
+.author-info_content .author-info_name,
+.button-read-more,
+.blog-post_meta_share .share_title,
+.blog-post_meta-date .date_post span,
+.blog-post_meta-categories a, 
+.blog-post_meta-categories span, 
+.blog-post_meta-date .date_post,
+.theme-header-font,
+.countdown-section .countdown-amount,
+.comments-title .number-comments,
+.integrio_module_progress_bar .progress_label,
+.integrio_module_double_headings,
+.integrio_module_infobox .infobox_icon_container .infobox_icon_number,
+.integrio_module_button.wgl_button .wgl_button_link,
+.integrio_module_pricing_plan .pricing_cur,
+.integrio_module_pricing_plan .pricing_price .price_decimal,
+.integrio_module_testimonials .testimonials_item:before,
+.integrio_module_testimonials .testimonials_status,
+.integrio_module_counter .counter_title,
+.integrio_module_videobox .title,
+.integrio_module_progress_bar .progress_value, 
+.integrio_module_progress_bar .progress_units,
+.integrio_module_counter .counter_value_wrapper, 
+.integrio_module_counter .counter_value_placeholder,
+.integrio_module_pricing_plan .pricing_plan_wrap .pricing_price_wrap,
+.integrio_module_ico_progress .progress_value_completed,
+.integrio_module_ico_progress .progress_value_min,
+.integrio_module_ico_progress .progress_value_max,
+.integrio_module_ico_progress .progress_point,
+.mashsb-count .counts,
+.mashsb-box .mashsb-buttons a .text,
+.prev-link,
+.next-link,
+.vc_row .vc_tta.vc_general.vc_tta-style-accordion_bordered .vc_tta-panel-title>a span,
+.widget.integrio_widget.integrio_banner-widget .banner-widget_text,
+.widget.integrio_widget.integrio_banner-widget .banner-widget_text_bg,
+.widget.integrio_widget.integrio_banner-widget .banner-widget_button,
+.widget.widget_wgl_posts .recent-posts-widget li > .recent-posts-content .post_title,
+.heading_subtitle,
+.info_prev-link_wrapper a,
+.info_next-link_wrapper a,
+.single_meta .single_info-share_social-wpapper > span.share_title,
+.single_team_page .team-single_speaches-info .speech-info_day,
+.single_team_page .team-info_wrapper .team-info_item,
+.single_info-share_social-wpapper > span,
+.single-portfolio .wgl_portfolio_item-meta,
+.portfolio_info_item-info_desc h5,
+.wgl_portfolio_item-meta .post_cats,
+.wgl_portfolio_item-cats,
+.wgl-pagination .page-numbers,
+.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab > a,
+.wpb-js-composer .wgl-container .vc_chart.vc_round-chart[data-vc-legend="1"] .vc_chart-legend li,
+.isotope-filter a,
+body input:not([type='checkbox']):not([type='submit']),
+select, textarea,
+.blog-post.format-quote .blog-post_quote-author,
+body .comment-respond .comment-reply-title,
+.page-header_title,
+.wgl_module_team .team-department,
+.integrio_module_services_2 .services_link,
+.integrio_module_pricing_plan .pricing_content,
+.integrio_module_testimonials.type_inline_top .testimonials_meta_wrap:after,
+.integrio_module_testimonials .testimonials_position,
+.integrio_module_services_4 .services_subtitle,
+.dropcap,
+.dropcap-bg,
+.portfolio_info_item-info_desc span,
+.integrio_module_countdown .countdown-section .countdown-period,
+ul.wp-block-archives.wp-block-archives-list li a,
+ul.wp-block-categories.wp-block-categories-list li a,
+ul.wp-block-categories.wp-block-categories-list li .post_count,
+ul.wp-block-latest-posts li a{
+	font-family: $header_font_family;
+}
+
+.banner_404,
+.load_more_item,
+.integrio_module_time_line_horizontal .tlh_date,
+.wgl_portfolio_single-item .tagcloud .tagcloud_desc,
+.wgl_timetabs .timetabs_data .timetabs_item .item_time,
+.wgl_timetabs .timetabs_data .timetabs_item .content-wrapper .item_title,
+.wpb-js-composer .wgl-container .vc_row .vc_pie_chart .vc_pie_chart_value,
+.isotope-filter a.active,
+.isotope-filter a:hover,
+.wgl_timetabs .timetabs_headings .wgl_tab,
+blockquote{
+	font-family: $header_font_family;
+	color: $header_font_color;
+}
+
+body .footer select option,
+body .widget_wgl_posts .recent-posts-widget .post_title a,
+body .widget .widget-title .widget-title_wrapper,
+button,
+h1,h2,h3,h4,h5,h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h3#reply-title a,
+.calendar_wrap tbody,
+.comment_author_says,
+.comment_author_says a,
+.tagcloud-wrapper .title_tags,
+.theme-header-color,
+.integrio_module_double_headings .heading_title,
+.integrio_module_testimonials .testimonials_item .testimonials_content_wrap .testimonials_name,
+.integrio_module_pricing_plan .pricing_plan_wrap .pricing_content > ul > li > b,
+.integrio_module_social .soc_icon,
+.integrio_module_counter .counter_value_wrapper,
+.integrio_module_carousel .slick-arrow,
+.integrio_module_message_box .message_close_button:hover,
+.prev-link-info_wrapper,
+.next-link-info_wrapper,
+.item_title a,
+.share_post-container:hover > a,
+.single_meta .blog-post_share-wrap > span.share_title,
+.single_meta .single_info-share_social-wpapper > span.share_title,
+.single_info-share_social-wpapper > span,
+.integrio_module_counter .counter_value_wrapper,
+.wgl_module_title.item_title .carousel_arrows a span:after,
+.wgl_module_team.info_under_image .team-department,
+.wgl_portfolio_item-wrapper .portfolio_link,
+.widget_product_search .woocommerce-product-search:after,
+.widget.integrio_widget.integrio_banner-widget .banner-widget_text,
+.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel:not(.vc_active) .vc_tta-panel-heading .vc_tta-panel-title,
+.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab:not(.vc_active) > a,
+.wpb-js-composer .wgl-container .vc_row .vc_toggle.vc_toggle_color_check.vc_toggle_active .vc_toggle_title .vc_toggle_icon,
+.under_image .wgl_portfolio_item-title .title a,
+.wpb-js-composer .wgl-container .vc_row .vc_toggle .vc_toggle_title,
+.button-read-more:hover,
+.wgl-pagination .page .current,
+.wgl-pagination .page-numbers:hover,
+body .widget_categories ul li a,
+body .widget_product_categories ul li a, 
+body .widget_meta ul li a, 
+body .widget_archive ul li a,
+.integrio_module_services_2 .services_link,
+ul.wp-block-archives.wp-block-archives-list li a,
+ul.wp-block-categories.wp-block-categories-list li a,
+ul.wp-block-latest-posts li a,
+.integrio_module_demo_item .di_title{
+	color: $header_font_color;
+}
+
+.integrio_module_title .carousel_arrows a span {
+	background: $header_font_color;
+}
+
+.integrio_module_infobox.infobox_alignment_left.title_divider .infobox_title:before,
+.integrio_module_infobox.infobox_alignment_right.title_divider .infobox_title:before,
+.integrio_module_carousel .slick-arrow:hover {
+	background-color: $header_font_color;
+}
+
+.integrio_module_title .carousel_arrows a span:before,
+.integrio_module_pricing_plan .pricing_highlighter,
+.wgl-pagination .page .current,
+.wgl-pagination .page-numbers:hover {
+	border-color: $header_font_color;
+}
+
+/* ==================== ##End Heading Features ==================== */
+
+/* ==================== ##Additional Styles ==================== */
+
+.wgl-theme-header .wgl-sticky-header .header_search{
+	height: $header_sticky_height !important;
+}    
+
+#scroll_up {
+	background-color: $scroll_up_bg_color;
+	color: $scroll_up_arrow_color;
+}
+
+/* menu fonts */
+.primary-nav>div>ul,
+.primary-nav>ul,
+.sitepress_container > .wpml-ls li,
+.primary-nav ul li.mega-menu-links > ul > li{
+	font-family: $menu_font_family;
+	font-weight: $menu_font_weight;
+	line-height: $menu_font_line_height;
+	font-size: $menu_font_size;
+}
+/* sub menu fonts */
+.primary-nav ul li ul,
+.wpml-ls,
+.sitepress_container > .wpml-ls ul ul li,
+.primary-nav ul li div.mega-menu-container{
+	font-family: $sub_menu_font_family;
+	font-weight: $sub_menu_font_weight;
+	line-height: $sub_menu_font_line_height;
+	font-size: $sub_menu_font_size;	
+}
+
+/* sub menu styles */
+.wgl-theme-header .header_search-field,
+.primary-nav ul li ul,
+.primary-nav ul li div.mega-menu-container,
+.wgl-theme-header .woo_mini_cart,
+.wpml-ls-legacy-dropdown .wpml-ls-current-language .wpml-ls-sub-menu{
+	background-color: $sub_menu_bg;
+	color: $sub_menu_color;
+}
+
+.mobile_nav_wrapper,
+.wgl-menu_outer,
+.mobile_nav_wrapper .primary-nav ul li ul.sub-menu,
+.mobile_nav_wrapper .primary-nav ul li.mega-menu-links > ul.mega-menu > li > ul > li ul,
+.mobile_nav_wrapper .primary-nav ul li.mega-menu-links > ul.mega-menu > li > ul{
+	background-color: $mobile_sub_menu_bg;
+	color: $mobile_sub_menu_color;		
+}
+
+/* ==================== ##End Additional Styles ==================== */

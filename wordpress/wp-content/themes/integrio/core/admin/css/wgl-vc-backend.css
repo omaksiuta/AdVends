@@ -1,0 +1,70 @@
+.vc_edit-form-tab .vc_shortcode-param.vc_column.no-top-padding{
+	padding-top: 0;
+}
+.vc_edit-form-tab .vc_shortcode-param.vc_column.no-top-margin{
+    margin-top: 0;
+}
+.vc_edit-form-tab .vc_shortcode-param.vc_column.clear-left{
+    clear: left;
+}
+.vc_edit-form-tab .vc_shortcode-param.vc_column.divider{
+	margin-top: 0;
+	padding-top: 0;
+}
+.vc_edit-form-tab .vc_shortcode-param.vc_column.divider *{
+	border: unset;
+}
+.wpb_el_type_integrio_param_heading.vc_shortcode-param.vc_column{
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #bbb;
+}
+.wpb_el_type_integrio_param_heading h4 {
+	padding: 0 0 5px 0;
+	margin: 0;
+	border-bottom: 1px dashed #dbdbdb;
+}
+.wgl_checkbox_wrapper input{
+	display: none !important;
+}
+.wgl_checkbox_label {
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 28px;
+    box-sizing: border-box;
+    margin: 4px 0;
+    border: 2px solid #EBEBEB;
+    border-radius: 4px;
+    background-color: #EBEBEB;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.wgl_checkbox_label .button-animation{
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 22px;
+    height: 22px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background: white;
+    transition: .3s ease;
+}
+.wgl_checkbox_label.checked {
+	border-color: #52d298;
+    background: #52d298;
+}
+.wgl_checkbox_label.checked .button-animation {
+	left: 23px;
+}
+.wpb_el_type_param_group .vc_param_group-list .vc_param.wpb_vc_row {
+    margin-bottom: 5px;
+    padding: 7px;
+    background: #f9f9f9;
+}
+.vc_ui-panel-content-container {
+    min-height: 100px !important;
+}

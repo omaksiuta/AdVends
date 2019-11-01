@@ -1,0 +1,14 @@
+2019-11-01T15:25:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-includes/class-wp-image-editor-gd.php on line 187
+
+2019-11-01T15:26:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-includes/class-wp-image-editor-gd.php on line 187
+
+2019-11-01T15:35:47+00:00 CRITICAL Uncaught Error: Class 'Integrio_Theme_Helper' not found in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/plugins/integrio-core/includes/widgets/banner.php:180
+Stack trace:
+#0 /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-includes/class-wp-widget.php(517): Banner->form(Array)
+#1 /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-admin/includes/widgets.php(265): WP_Widget->form_callback(Array)
+#2 /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-includes/class-wp-customize-widgets.php(1053): wp_widget_control(Array, Array)
+#3 /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-includes/class-wp-customize-widgets.php(1001): WP_Customize_Widgets->get_widget_control(Array)
+#4 /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-includes/class-wp-customize-widgets.php(690): WP_Customize_Widgets->get_available_widgets()
+#5 /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-includes/class-wp-hook.php(286): WP_Customize_Widgets->enqueue_scripts('')
+#6 /Users/oleksandrmaksiuta/webdev/AdVen in /Users/oleksandrmaksiuta/webdev/AdVends/wordpress/wp-content/plugins/integrio-core/includes/widgets/banner.php on line 180
+

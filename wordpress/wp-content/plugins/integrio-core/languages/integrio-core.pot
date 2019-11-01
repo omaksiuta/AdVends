@@ -1,0 +1,1003 @@
+# Copyright (C) 2019 WebGeniusLab
+# This file is distributed under the same license as the WebGeniusLab package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WebGeniusLab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../plugins/integrio-core/wgl-core.php:51, ../../plugins/integrio-core/wgl-core.php:70
+msgid "\"Integrio-core\" Plugin compatible with \"Integrio\" theme only!"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/class-wgl-core.php:193
+msgid "Showing the single result"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/class-wgl-core.php:195
+msgid "Showing all %d results"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/class-wgl-core.php:197
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing <strong>%1$d&ndash;%2$d</strong> of %3$d results"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:8
+msgid "Extra profile information"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:12
+msgid "Instagram"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:15
+msgid "Please enter your instagram url."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:19
+msgid "Facebook"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:22
+msgid "Please enter your facebook url."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:26
+msgid "Linkedin"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:29
+msgid "Please enter your linkedin url."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:33
+msgid "Twitter"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper-functions.php:36
+msgid "Please enter your twitter url."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/meta-box-extensions/select_icon_field.php:56
+msgid "Icon"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/meta-box-extensions/select_icon_field.php:65
+msgid "Link"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/meta-box-extensions/select_icon_field.php:81
+msgid "Select an icon"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/theme-helper/theme-helper.php:73
+msgid "Socials"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:11
+msgid "WGL Author Said"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:12
+msgid "WGL Widget "
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:52
+msgid "Featured author image: "
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:64
+msgid "Featured author signature: "
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:161, ../../plugins/integrio-core/includes/widgets/banner.php:184, ../../plugins/integrio-core/includes/widgets/posts.php:190, ../../plugins/integrio-core/includes/widgets/posts_hero.php:181
+msgid "Title:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:166
+msgid "Author Name:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:171
+msgid "Text:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:176
+msgid "Author Image:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:179, ../../plugins/integrio-core/includes/widgets/author.php:186, ../../plugins/integrio-core/includes/widgets/author.php:193, ../../plugins/integrio-core/includes/widgets/banner.php:158, ../../plugins/integrio-core/includes/widgets/banner.php:165
+msgid "Upload"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:183
+msgid "Background Image:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:190
+msgid "Author Signature:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:197
+msgid "Facebook:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:202
+msgid "Twitter:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:207
+msgid "Linkedin:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/author.php:212
+msgid "Instagram:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:11
+msgid "WGL Banner"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:12
+msgid "WGL Widget"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:55
+msgid "Featured image: "
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:155
+msgid "Add Logotype image:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:162
+msgid "Add background image:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:169
+msgid "Padding Top: "
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:174
+msgid "Padding Bottom: "
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:179
+msgid "Sub Title:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:190
+msgid "Show Title Tags"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:194
+msgid "Button title:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/banner.php:199
+msgid "Button link:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:25
+msgid "Display recent posts by categories (or related)"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:28
+msgid "WGL Posts"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:120, ../../plugins/integrio-core/includes/widgets/posts_hero.php:111
+msgid "Permalink to "
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:139, ../../plugins/integrio-core/includes/widgets/posts_hero.php:132
+msgid "No posts were found for display"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:178, ../../plugins/integrio-core/includes/widgets/posts_hero.php:170
+msgid "Recent Posts"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:195, ../../plugins/integrio-core/includes/widgets/posts_hero.php:186
+msgid "Number of posts:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:201, ../../plugins/integrio-core/includes/widgets/posts_hero.php:192
+msgid "Show related category posts"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:206
+msgid "Show thumbnail image"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:210, ../../plugins/integrio-core/includes/widgets/posts_hero.php:196
+msgid "Post meta info"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:215, ../../plugins/integrio-core/includes/widgets/posts_hero.php:201
+msgid "Show date"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:219
+msgid "Show content"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:223, ../../plugins/integrio-core/includes/widgets/posts_hero.php:208
+msgid "Filter by Category:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts.php:225, ../../plugins/integrio-core/includes/widgets/posts_hero.php:210
+msgid "All categories"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts_hero.php:25
+msgid "Display posts with overlay image"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts_hero.php:28
+msgid "WGL Posts Hero"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/widgets/posts_hero.php:205
+msgid "Show categories"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:27
+msgid "Footer"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:29
+msgid "Footers"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:41, ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:42, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:54, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:55, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:46, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:47
+msgid "Add New %s"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:43, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:56, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:48
+msgid "Edit %s"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:44, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:57, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:49
+msgid "New %s"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:45, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:58, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:50
+msgid "All %s"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:46, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:59, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:51
+msgid "View %s"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:47, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:60, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:52
+msgid "Search %s"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:48, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:61, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:53
+msgid "No %s found"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/footer/class-pt-footer.php:49, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:62, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:54
+msgid "No %s found in Trash"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:28
+msgid "Portfolio"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:29
+msgid "Item"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:30
+msgid "Items"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:92, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:93, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:78, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:79
+msgid "%s Categories"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:94, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:80
+msgid "%s Category"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:95, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:81
+msgid "Search %s Categories"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:96, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:82
+msgid "All %s Categories"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:97, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:83
+msgid "Parent %s Category"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:98, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:84
+msgid "Parent %s Category:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:99, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:85
+msgid "New %s Category Name"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:100, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:86
+msgid "Add New %s Category"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:101, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:87
+msgid "Edit %s Category"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:102, ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:88
+msgid "Update %s Category"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:118, ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:119
+msgid "Tags"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:120
+msgid "Tag"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:121
+msgid "Popular Tags"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:122
+msgid "Search Tag"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:123
+msgid "All Tags"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:126
+msgid "New Tag Name"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:127
+msgid "Add New Tag"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:128
+msgid "Edit Tag"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:129
+msgid "Update Tag"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/class-pt-portfolio.php:146
+msgid "Featured Image"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:27
+msgid "Team"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:28
+msgid "Member"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/team/class-pt-team.php:29
+msgid "Members"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:115
+msgid "WGL Select Item"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:144
+msgid "Toggle row"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:146
+msgid "Disabled row"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:151
+msgid "Edit this row"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:239
+msgid "Edit this column"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:241
+msgid "Add Item"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:264
+msgid "Select preset for start editing"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:271
+msgid "Save Changes"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:274
+msgid "WGL Header Options"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_header_builder/custom_header_builder/field_custom_header_builder.php:304
+msgid "Are you sure want to delete the element?"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:74
+msgid "Notice"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:79
+msgid "We will reset all options inside header builder"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:82
+msgid "You can modify your header using header builder after choosing header builder template. Click \"Save Preset\", to save the header builder layout"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:88
+msgid "Add Preset"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:94
+msgid "Save"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:134
+msgid "Saved Templates"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:215
+msgid "Save Preset"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:221
+msgid "Rename"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:224
+msgid "Delete Preset"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:234
+msgid "Reset"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:280
+msgid "Delete Preset?"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:281
+msgid "Reset to default?"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:282
+msgid "Sorry this name is already exists"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/extensions/custom_preset/custom_preset/field_custom_preset.php:283
+msgid "Empty name"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:11, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:17
+msgid "Portfolio List"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:14
+msgid "WGL Modules"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:21
+msgid "Overall Layout"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:26
+msgid "Grid"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:29, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:344, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:355, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:367, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:379, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:391, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:402, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:413, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:424, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:435, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:446, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:475, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:487, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:498, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:510, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:518, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:529, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:545, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:552, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:568, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:575, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:587, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:599, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:612, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:624, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:636, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:648, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:660, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:672
+msgid "Carousel"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:32
+msgid "Masonry"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:35
+msgid "Masonry 2"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:38
+msgid "Masonry 3"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:41
+msgid "Masonry 4"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:47
+msgid "Columns Amount"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:51, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:70
+msgid "1"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:52, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:71
+msgid "2"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:53, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:72
+msgid "3"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:54, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:73
+msgid "4"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:55, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:74
+msgid "5"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:66
+msgid "Grid Gap"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:69
+msgid "0"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:75
+msgid "10"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:76
+msgid "15"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:77
+msgid "20"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:78
+msgid "25"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:79
+msgid "30"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:80
+msgid "35"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:92
+msgid "Show Filter"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:94, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:123
+msgid "Yes"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:105
+msgid "Filter Align"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:108, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:151, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:281
+msgid "Left"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:109, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:152, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:282
+msgid "Right"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:110, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:150, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:280
+msgid "Center"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:121
+msgid "Crop Images"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:129
+msgid "Navigation Type"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:134, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:893
+msgid "None"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:135
+msgid "Pagination"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:136
+msgid "Infinite Scroll"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:137, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:178
+msgid "Load More"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:147
+msgid "Navigation's Alignment"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:163
+msgid "Items on load"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:167
+msgid "Items to be load by 'Load more' button."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:176
+msgid "Button Name"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:193
+msgid "Add Appear Animation"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:199
+msgid "Animation Style"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:202
+msgid "Fade In"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:203
+msgid "Slide Top"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:204
+msgid "Slide Bottom"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:205
+msgid "Slide Left"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:206
+msgid "Slide Right"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:207
+msgid "Zoom"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:218
+msgid "Extra Class"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:220
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:224
+msgid "Click Item"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:228, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:242, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:255, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:273, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:289, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:295, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:303, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:311, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:318, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:332
+msgid "Content"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:230
+msgid "Single"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:231
+msgid "Popup"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:232
+msgid "Custom Link"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:233, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:890
+msgid "Default"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:239
+msgid "Add Single Link to Title"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:247
+msgid "Show Info Position"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:251
+msgid "Inside Image"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:252
+msgid "Under Image"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:259
+msgid "Inside Image Animation"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:262
+msgid "On Sub-Layer"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:263
+msgid "Simple"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:264
+msgid "Side Offset"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:265
+msgid "Zoom In"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:266
+msgid "Outline"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:267
+msgid "Always Show Info"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:277
+msgid "Horizontal Content Align"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:293
+msgid "Content Elements"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:300
+msgid "Show Title?"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:308
+msgid "Show categories?"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:316
+msgid "Show Content?"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:324
+msgid "Content Letter Count"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:327
+msgid "Enter content letter count."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:338
+msgid "Carousel Options"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:349
+msgid "Autoplay"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:360
+msgid "Autoplay Speed"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:372
+msgid "Multiple Items"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:429
+msgid "Pagination Controls"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:440
+msgid "Add Pagination control"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:451
+msgid "Pagination Type"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:456
+msgid "Circle"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:459
+msgid "Empty Circle"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:462
+msgid "Square"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:465
+msgid "Line"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:468
+msgid "Line - Circle"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:479
+msgid "Pagination Top Offset"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:482
+msgid "Enter pagination top offset in pixels."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:492
+msgid "Custom Pagination Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:503
+msgid "Pagination Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:516
+msgid "Prev/Next Buttons"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:527
+msgid "Add Prev/Next buttons"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:550
+msgid "Responsive"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:561
+msgid "Customize Responsive"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:573
+msgid "Medium Desktop"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:584, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:621, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:657
+msgid "Screen resolution"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:596, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:633, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:669
+msgid "Slides to show"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:610
+msgid "Tablets"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:646
+msgid "Mobile Phones"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:684
+msgid "Typography"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:686, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:697, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:707, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:714, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:730, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:737, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:743, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:756, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:769, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:777, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:783, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:795, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:808, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:817, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:823, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:835, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:849, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:857, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:863, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:876, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:883, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:896, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:910, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:923, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:936, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:944, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:950, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:962
+msgid "Font"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:692
+msgid "Headings Font Size"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:696, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:706
+msgid "Value in pixels."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:702
+msgid "Categories Font Size"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:712
+msgid "Customize Headings Font Family"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:722
+msgid "Select font family."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:723
+msgid "Select font styling."
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:735
+msgid "Custom Heading Colors"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:741, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:781, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:821
+msgid "Customize Colors"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:748, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:868, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:891, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:955
+msgid "Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:761
+msgid "Hover Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:775
+msgid "Custom Categories Colors"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:788, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:828
+msgid "Color Idle"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:801, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:841
+msgid "Color Hover"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:815
+msgid "Custom Icons Colors"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:855
+msgid "Custom Content Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:861, ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:948
+msgid "Customize Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:881
+msgid "Custom Overlay Colors"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:887
+msgid "Customize Background"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:892
+msgid "Gradient"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:902
+msgid "Background Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:905
+msgid "Select background color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:916
+msgid "Background Start Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:929
+msgid "Background End Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/options.php:942
+msgid "Custom Secondary Overlay Color"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/render.php:837
+msgid "Share:"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/render.php:1014
+msgid "Tags: "
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/shortcodes/render.php:1056
+msgid "All"
+msgstr ""
+
+#: ../../plugins/integrio-core/includes/post-types/portfolio/templates/archive-portfolio.php:88
+msgid "Category:"
+msgstr ""
